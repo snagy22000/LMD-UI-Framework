@@ -11,6 +11,44 @@ Due the days of 24 - 26 the Team has to develop:
 * 5 UI Components
 * 1 Presentation Site
 
+## Branch`s:
+
+Guideline for Q & A -
+
+* master - add and commit only after testing (one person responsible)
+* develop - copy of the master - will be used for development staging
+
+* component -  will be used to develop the HTML  and CSS components
+* presentation_site - this branch will be used to create the website
+
+> ! Master Branches are only after all component's had been tested successfully.
+
+## Git Development Workflow:
+
+![](http://i.imgur.com/fi7Nqeq.jpg)
+
+The Master Branch is only for production and will not be touched due the Development.
+
+The Develop Branch is a copy of the Master and will be used due Development.
+
+1. Checkout you branch which corespondent to your work (components or website)
+    
+        git checkout components
+
+        git checkout presentation_site
+        
+2. After Development and Testing  merge your work with Develop branch
+       
+       git checkout develop
+       
+       git merge components|presentation_site (one of both)
+       
+3. Control after merging process if eveything works fine.
+        
+        Same testing as before, inform team collegues about the changes in develop branch
+
+
+
 ## Rules:
 
 * Don’t copy any code from anywhere. Build your UI elements from scratch.
