@@ -39,9 +39,9 @@ The Develop Branch is a copy of the Master and will be used due Development.
         
 2. After Development and Testing  merge your work with Develop branch
        
-       git checkout develop
-       
-       git merge components|presentation_site (one of both)
+           git checkout develop
+
+           git merge components|presentation_site (one of both)
        
 3. Control after merging process if eveything works fine.
         
