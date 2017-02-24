@@ -36,14 +36,19 @@ The Develop Branch is a copy of the Master and will be used due Development.
         git checkout components
 
         git checkout presentation_site
-        
-2. After Development and Testing  merge your work with Develop branch
-       
-           git checkout develop
 
-           git merge components|presentation_site (one of both)
+
+2. Push changes to github - branch
+
+        git push origin components| presentation_site        
+        
+3. After Development and Testing  merge your work with Develop branch
        
-3. Control after merging process if eveything works fine.
+        git checkout develop
+
+        git merge components|presentation_site (one of both)
+       
+4. Control after merging process if eveything works fine.
         
         Same testing as before, inform team collegues about the changes in develop branch
 
