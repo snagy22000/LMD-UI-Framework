@@ -16,41 +16,43 @@ Due the days of 24 - 26 the Team has to develop:
 Guideline for Q & A -
 
 * master - add and commit only after testing (one person responsible)
-* develop - copy of the master - will be used for development staging
 
-* component -  will be used to develop the HTML  and CSS components
-* presentation_site - this branch will be used to create the website
+Every Component/Feature will have his own Branch
+
+* cp_button - Branch for the component button
+* cp_cards -  Branch for the component cards
+* cp_accordion - Branch for the component accordion
+* cp_tabs - Branch for the component tabs
+* cp_formel - Branch for the component form_elements
+
 
 > ! Master Branches are only after all component's had been tested successfully.
 
 ## Git Development Workflow:
 
-![](http://i.imgur.com/fi7Nqeq.jpg)
 
 The Master Branch is only for production and will not be touched due the Development.
-
-The Develop Branch is a copy of the Master and will be used due Development.
+[GitHub Workflow](https://guides.github.com/introduction/flow/)
 
 1. Checkout you branch which corespondent to your work (components or website)
     
-        git checkout components
+        git checkout cp_button
 
-        git checkout presentation_site
+        git checkout cp_cards
 
 
-2. Push changes to github - branch
+2. Add commits to github - branch
 
-        git push origin components| presentation_site        
+        git commit -m " writing clear commit messages" 
+
+3. Open a Pull Request  
+
+4. Discuss and review the code
+
+5. Deploy to production after rewiev and confirm              
         
-3. After Development and Testing  merge your work with Develop branch
-       
-        git checkout develop
+6. Merge your work with master branch
 
-        git merge components|presentation_site (one of both)
-       
-4. Control after merging process if eveything works fine.
-        
-        Same testing as before, inform team collegues about the changes in develop branch
 
 
 
