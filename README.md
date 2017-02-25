@@ -1,8 +1,15 @@
 # LMD Team Hackathon:
 ## Project Members:
 * Sebastian Nagy - Project Management, Development
+  - Components Card [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_cards/cards/index.html)
+  - Components Form 
+    
 * Michel Rossier - Product Manager, Development
+- Components Accordion
+
 * Carlos Astrada - Development
+- Components Buttons
+
 * Alexandrix Ikechukwu - Development
 
 ## Scope:
@@ -84,4 +91,6 @@ The Master Branch is only for production and will not be touched due the Develop
 2. To get familiar with the newest web features/technologies the idea is to use CSS Variables (detail soon)
 3. Floobit is as a draft for pair programming (tbd)
 4. ...
+
+
 
