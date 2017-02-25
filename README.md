@@ -53,7 +53,18 @@ The Master Branch is only for production and will not be touched due the Develop
         
 6. Merge your work with master branch
 
+## Color Palette
 
+        :root {
+         --very-light-blue: #A9DDEA; 
+         --soft-light-blue: #69D0EE;
+         --light-blue: #57AEC7;
+         --very-light-gray: #BDBDBD; 
+         --light-gray: #D4D4D4;
+         --dark-gray: #31353B;
+         --title-color: #fff;
+         --content-color: #000;
+        }
 
 
 ## Rules:
