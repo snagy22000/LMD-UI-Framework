@@ -3,7 +3,7 @@
 :root {
 
   /*Version with Blue Color as primary*/
-  --faint-primary-color: #A9DDEA;              /* --very-light-blue: #A9DDEA; */
+  --faint-primary-color: #A9DDEA;              /* --faint-primary-color: #A9DDEA; */
   --soft-primary-color: #69D0EE;              /*   --soft-light-blue: #69D0EE; */
   --primary-color: #57AEC7;                /* --light-blue: #57AEC7;*/
   --faint-secondary-color: #D4D4D4;            /* --very-light-gray: #D4D4D4; */
