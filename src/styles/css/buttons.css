@@ -82,4 +82,9 @@ ul.cfa-container--grouped>div {
   .cfa-container {
     flex-direction: column;
   }
+
+  .cfa-container li,
+  .cfa-container--grouped>div>li {
+    margin: 8px 0 !important;
+  }
 }
