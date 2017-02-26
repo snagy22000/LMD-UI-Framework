@@ -89,7 +89,7 @@ input {
 /****RADIO AND CHECKBOX SETUP********/
 
 
-label.lblradio {
+label.sn-lblradio {
   color: var(--primary-color);
   font-weight: bold;
   font-size: 1.6rem;
@@ -97,14 +97,14 @@ label.lblradio {
   cursor: pointer;
 }
 
-input[type="radio"] {
+.sn-lblradio input[type="radio"] {
   height: 1px;
   padding: 0;
   opacity: 0;
   width: 1px;
 }
 
-label .outer {
+.sn-lblradio .outer {
   height: 20px;
   width: 20px;
   display: block;
@@ -116,26 +116,26 @@ label .outer {
   transition: all 900ms;
 }
 
-input[type="radio"]:checked + .outer {
+.sn-lblradio input[type="radio"]:checked + .outer {
   background: var(--faint-primary-color);
   box-shadow: inset 0 0 0 2px rgb(255, 255, 255);
 }
 
-input[type="checkbox"] {
+input.sn-chbx[type="checkbox"] {
   height: 1px;
   padding: 0;
   opacity: 0;
   width: 1px;
 }
 
-input[type="checkbox"] + label {
+input.sn-chbx[type="checkbox"] + label {
   color: var(--primary-color);
   cursor: pointer;
   font-weight: bold;
   font-size: 1.6rem;
 }
 
-input[type="checkbox"] + label:before {
+input.sn-chbx[type="checkbox"] + label:before {
   content: "////";
   margin-right: 18px;
   font-size: 17px;
@@ -148,7 +148,7 @@ input[type="checkbox"] + label:before {
   transition: all 500ms;
 }
 
-input[type="checkbox"]:checked + label:before {
+input.sn-chbx[type="checkbox"]:checked + label:before {
   content: "\f00c";
   font-family: 'FontAwesome';
   color: var(--faint-primary-color);
@@ -237,8 +237,8 @@ input[type="checkbox"]:checked + label:before {
   margin-right: 20px;
 }
 
-input[id*="sub"],
-textarea {
+input.sn-form-fields[id*="sub"],
+textarea.sn-form-fields {
   color: var(--soft-secondary-color);
   background: var(--faint-primary-color);
   border: 1px solid rgb(255, 255, 255);
@@ -249,31 +249,31 @@ textarea {
   width: 100%;
 }
 
-input[id*="sub"]:first-child {
+input.sn-form-fields[id*="sub"]:first-child {
   margin-right: 15px;
 }
 
-label[for*="sub"] {
+label.sn-form-lbl[for*="sub"] {
   color: var(--title-color);
   font-size: 1.6rem;
   top: 0;
   position: absolute; 
 }
 
-label[for*="sub"]:before{
+label.sn-form-lbl[for*="sub"]:before{
   font-family: 'FontAwesome';
   margin-right: 10px;
 }
 
-label[for="subUsername"]:before{
+label.sn-form-lbl[for="subUsername"]:before{
   content: "\f007";
 }
 
-label[for="subEmail"]:before{
+label.sn-form-lbl[for="subEmail"]:before{
   content:  "\f0e0";
 }
 
-label[for="subMessage"]:before{
+label.sn-form-lbl[for="subMessage"]:before{
   content:  "\f040";
 }
 
