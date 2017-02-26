@@ -23,6 +23,7 @@ nav li {
   padding: .5em;
   padding-right: 2em;
   transition: all 200ms;
+  border-right: 4px solid transparent; 
 }
 
 nav li:hover {
