@@ -1,0 +1,11 @@
+/* CSS for  <main> */
+
+
+main {
+  background-color: white;
+  margin-top: 50px;
+}
+
+main>div {
+  padding: 100px;
+}

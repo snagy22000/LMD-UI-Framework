@@ -1,0 +1,44 @@
+/* CSS for <nav> */
+
+
+nav h1 {
+  color: var(--secondary-color);
+}
+
+nav a {
+  color: var(--nav-text-color);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+nav li {
+  font-size: 1.2em;
+  margin: .2em 0;
+  padding: .5em;
+  padding-right: 2em;
+}
+
+nav li:hover {
+  border-right: 4px solid var(--primary-color);
+}
+
+nav li:first-child {
+  border: none;
+  font-size: 1.5em;
+}
+
+/* For devices smaller than 550px */
+@media (max-width: 550px) {
+  nav li:hover {
+    border: none;
+  }
+
+  nav ul {
+    align-items: flex-start;
+  }
+}

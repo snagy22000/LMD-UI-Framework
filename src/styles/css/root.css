@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+
+:root {
+
+  /*Version with Blue Color as primary*/
+  --faint-primary-color: #A9DDEA;              /* --very-light-blue: #A9DDEA; */
+  --soft-primary-color: #69D0EE;              /*   --soft-light-blue: #69D0EE; */
+  --primary-color: #57AEC7;                /* --light-blue: #57AEC7;*/
+  --faint-secondary-color: #D4D4D4;            /* --very-light-gray: #D4D4D4; */
+  --soft-secondary-color: #BDBDBD;                /* --light-gray: #BDBDBD; */
+  --secondary-color: #D1D0D0;                      /* --gray: #D1D0D0; */
+  --dark-secondary-color: #31353B;                /* --dark-gray: #31353B; */
+  --title-color: #fff;
+  --text-color: #000;                  /* --content-color: #000; */
+
+  /* new additions -keeping separate to make merging easier */
+  --site-background-color: rgb(36, 40, 45);
+  --header-background-color: rgb(26, 28, 32);
+  --nav-text-color: rgb(94, 114, 139);
+  --footer-text-color: rgb(65, 73, 83); 
+
+  /*Font used in the Framework*/
+  --font-heading: 'Roboto';
+  --font-content: 'Open Sans';
+  --font-title: sans-serif;
+
+}
+
+/*@TODO -- add any other root styles as defined in the component parts*/
