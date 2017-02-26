@@ -1,22 +1,22 @@
 /* CSS for the <header> */
 
-header {
+header.top-header {
   background-color: var(--header-background-color);
   padding: 40px 0;
   display: flex;
   align-items: center;
 }
 
-header img {
+header.top-header img {
   width: 100px;
   height: 100px;
 }
 
-header h1 {
+header.top-header h1 {
   font-size: 2em;
   color: var(--secondary-color);
 }
 
-header span {
+header.top-header span {
   color: var(--primary-color); 
 }

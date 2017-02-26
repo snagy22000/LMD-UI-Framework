@@ -1,0 +1,284 @@
+
+/*****************************/
+/****BASE FORMS SETUP********/
+/***************************/
+
+/*CSS for fluid Layout*/
+.sn-form-fluid {
+  width: 100% !important;
+  height: 100%;
+  max-width: 900px;
+}
+
+.sn-form-header {
+  background: transparent;
+}
+
+
+
+/********************************/
+/**** SIGNUP FORMS SETUP********/
+/*******************************/
+
+
+/*With fixed Size : width: 346px  */
+.sn-form-signup {
+  border: 2px solid var(--faint-primary-color);
+  border-radius: 5px;
+  padding: 20px 35px;
+  width: 346px;
+}
+
+
+
+
+.sn-form-signup .sn-form-signup-title {
+  color: var(--soft-primary-color);
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: 15px 0 25px 0;
+}
+
+.sn-form-signup-form {
+  position: relative;
+}
+
+
+/****INPUT FIELDS SETUP********/
+
+
+input {
+  cursor: pointer;
+}
+
+
+.sn-form-signup-form  label[for*="sig"] > .fa{
+  border-radius: 5px 0 0 5px;
+  color: var(--title-color);
+  position: absolute;
+  margin-top: 21px;
+  margin-left: 0;
+  background: var(--soft-primary-color);
+  padding: 12px 16px;
+}
+
+.fa-envelope {
+  padding-left: 13px;
+}
+
+
+
+.sn-form-signup-form > input {
+ border: 1px solid var(--soft-primary-color);
+    border-radius: 5px 0 0 5px;
+    color: var(--soft-secondary-color);
+    width: 80%;
+    padding: 9px 0px 10px 55px;
+    margin: 20px 0;
+}
+
+.sn-form-signup-form > label:last-of-type {
+  margin-bottom: 60px;
+}
+
+.sn-form-signup-form > label {
+  display: block;
+}
+
+
+/****RADIO AND CHECKBOX SETUP********/
+
+
+label.lblradio {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  height: 1px;
+  padding: 0;
+  opacity: 0;
+  width: 1px;
+}
+
+label .outer {
+  height: 20px;
+  width: 20px;
+  display: block;
+  float: left;
+  margin: 10px 9px 10px 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  background-color: var(--title-color);
+  transition: all 900ms;
+}
+
+input[type="radio"]:checked + .outer {
+  background: var(--faint-primary-color);
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255);
+}
+
+input[type="checkbox"] {
+  height: 1px;
+  padding: 0;
+  opacity: 0;
+  width: 1px;
+}
+
+input[type="checkbox"] + label {
+  color: var(--primary-color);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+input[type="checkbox"] + label:before {
+  content: "////";
+  margin-right: 18px;
+  font-size: 17px;
+  font-family: 'FontAwesome';
+  min-width: 20px;
+  min-height: 20px;
+  border: 1px solid var(--faint-primary-color);
+  color: transparent;
+  margin-left: 9px;
+  transition: all 500ms;
+}
+
+input[type="checkbox"]:checked + label:before {
+  content: "\f00c";
+  font-family: 'FontAwesome';
+  color: var(--faint-primary-color);
+}
+
+/* Button Setup*/
+.sn-button {
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 13px 20px;
+  font-weight: bold;
+  transition: background 500ms, color 300ms;
+}
+
+.sn-button-large {
+  display: block;
+  width: 100%;
+}
+
+.sn-button-hover:hover {
+  color: var(--title-color);
+  background: var(--soft-primary-color);
+
+}
+
+.sn-button-primary {
+  color: var(--soft-primary-color);
+  background: var(--title-color);
+  border: 2px solid var(--soft-primary-color);
+}
+
+.sn-button-gray {
+  color: var(--soft-secondary-color);
+  background: var(--title-color);
+  border: 2px solid var(--soft-secondary-color);
+}
+
+.sn-button-gray-hover:hover {
+  color: var(--title-color);
+  background: var(--faint-secondary-color);
+}
+
+
+/********************************/
+/**** CONTACT FORMS SETUP********/
+/*******************************/
+
+/*With fixed Size : width: 346px  */
+.sn-form-submit {
+  background: var(--primary-color);
+  border: 2px solid var(--faint-primary-color);
+  border-radius: 5px;
+  padding: 20px 35px;
+  width: 346px;
+}
+
+.sn-form-submit .sn-form-submit-title {
+  color: var(--title-color);
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: 30px 0 70px 0;
+}
+
+.sn-form-submit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sn-form-submit-inp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+/************** INPUT AREA*********/
+
+.sn-form-submit-inp-container {
+  position: relative;
+  width: 100%;
+}
+
+.sn-form-submit-inp-container:first-child {
+  margin-right: 20px;
+}
+
+input[id*="sub"],
+textarea {
+  color: var(--soft-secondary-color);
+  background: var(--faint-primary-color);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;  
+  margin: 30px 0;
+  position: relative;
+  padding: 10px 0;
+  width: 100%;
+}
+
+input[id*="sub"]:first-child {
+  margin-right: 15px;
+}
+
+label[for*="sub"] {
+  color: var(--title-color);
+  font-size: 1.6rem;
+  top: 0;
+  position: absolute; 
+}
+
+label[for*="sub"]:before{
+  font-family: 'FontAwesome';
+  margin-right: 10px;
+}
+
+label[for="subUsername"]:before{
+  content: "\f007";
+}
+
+label[for="subEmail"]:before{
+  content:  "\f0e0";
+}
+
+label[for="subMessage"]:before{
+  content:  "\f040";
+}
+
+/*********** MEDIA QUERIES  **************************/
+
+@media screen and (max-width: 621px) {
+  .sn-form-submit-inp {
+    flex-direction: column;
+  }
+}

@@ -17,7 +17,7 @@
 
   <!-- Header Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <header>
+  <header class="top-header">
     <figure>
       <img src="src/images/BovAcademy_logo.png">
     </figure>
@@ -207,11 +207,72 @@
                 <h2>Signup</h2>
                 <!--Sign Up Form-->
 
+                <div class="sn-form-signup sn-form-fluid">
+                  <header class="sn-form-header">
+                    <h1 class="sn-form-signup-title">Join Us.</h1>
+                  </header>
+
+                  <form class="sn-form-signup-form" action="#">
+                    <label for="sigUsername"><i class="fa fa-user" aria-hidden="true"></i></label>
+                    <input type="text" name="Username" id="sigUsername" data-username="" placeholder="Username" autofocus>
+
+                    <label for="sigEmail"><i class="fa fa-envelope" aria-hidden="true"></i></label>
+                    <input type="email" name="Email" id="sigEmail" data-email="" placeholder="Email" />
+
+                    <label for="sigPassword"><i class="fa fa-unlock-alt" aria-hidden="true"></i></label>
+                    <input type="password" name="Password" id="sigPassword" data-password="" placeholder="Password">
+
+
+
+                    <label for="radio_1" class="lblradio"><input id="radio_1" type="radio" name="radio" checked>
+      <span class="outer"><span class="inner"></span></span>Radio 1</label>
+
+                    <label for="radio_2" class="lblradio"><input id="radio_2" type="radio" name="radio" checked>
+        <span class="outer"><span class="inner"></span></span>Radio 2</label>
+
+                    <label for="radio_3" class="lblradio"><input id="radio_3" type="radio" name="radio" checked>
+        <span class="outer"><span class="inner"></span></span>Radio 3</label>
+
+                    <input id="chb1" type="checkbox" name="checkbox" checked><label for="chb1">Checkbox 1</label>
+                    <input id="chb2" type="checkbox" name="checkbox" checked><label for="chb2">Checkbox 2</label>
+                    <input id="chb3" type="checkbox" name="checkbox" checked><label for="chb3">Checkbox 3</label>
+                    <input id="chb4" type="checkbox" name="checkbox" checked><label for="chb4">Checkbox 4</label>
+
+                    <button class="sn-button sn-button-large sn-button-primary sn-button-hover">Sign Up</button>
+                  </form>
+                </div>
+
               </article>
 
               <article>
                 <h2>Submit</h2>
                 <!--Submit Form-->
+                <div class="sn-form-submit sn-form-fluid">
+                  <header class="sn-form-header">
+                    <h1 class="sn-form-submit-title">Contact Us.</h1>
+                  </header>
+                  <form class="sn-form-submit-form" action="#">
+                    <div class="sn-form-submit-inp">
+
+                      <span class="sn-form-submit-inp-container">
+        <input type="text" name="Username" id="subUsername" data-username="" autofocus>
+        <label for="subUsername">Name</label>
+      </span>
+                      <span class="sn-form-submit-inp-container">
+        <input type="email" name="Email" id="subEmail" data-email="" " />
+        <label for="subEmail">Email</label>
+      </span>
+
+                    </div>
+                    <span class="sn-form-submit-inp-container">
+      <label for="subMessage">Message</label>
+      <textarea name="message" id="subMessage" cols="30" rows="10"></textarea>
+      </span>
+
+                    <button class="sn-button sn-button-large sn-button-primary sn-button-hover">Submit</button>
+
+                  </form>
+                </div>
               </article>
             </section>
           </div>
