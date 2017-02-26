@@ -5,11 +5,11 @@
   - Components Form [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_formel/src/index.html)
     
 * Michel Rossier - Product Manager, Development
-- Components Accordion
+  - Components Accordion
 
 * Carlos Astrada - Development
-- Components Buttons [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_button/button/button.html)
-- Presentation Site
+  - Components Buttons [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_button/button/button.html)
+  - Presentation Site
 
 ## Scope:
 Due the days of 24 - 26 the Team has to develop:
