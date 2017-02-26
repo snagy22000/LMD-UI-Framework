@@ -3,7 +3,7 @@
 
 ## Executive Summary:
 
-Overall, the hackathon went very well. We used a combination of gitter.im for discussions, Trello for project management, and github for coding. We performed a final review using Floobits for pair-programming. We split the work fairly, set up expectations and communications to coordinate the time-zone differences (Charlie is in Argentina; Sebastian and Michel in Central Europe), and communicated well at every single step. We ended up having enough time to make our site and components responsive. 
+Overall, the hackathon went well. We used a combination of gitter.im for discussions, Trello for project management, and github for coding. We performed a final review using Floobits for pair-programming. We split the work fairly, set up expectations and communications to coordinate the time-zone differences (Charlie is in Argentina; Sebastian and Michel in Central Europe), and communicated well at every single step. Apart from the obvious room for improvement, we ended up having enough time to make our site and components responsive. 
 
 
 
@@ -16,8 +16,26 @@ Apart from being well coordinated and organized, each team member took a compone
 - Each component would have its own css, which would be imported into the site's main.css
 
 
-
 The website was built using HTML5 and is responsive. The site structure is fairly modularized whereby each major section, such as the `<header>`, `<nav>`, `<main>`, and `<footer>`, has its own CSS. We also used normalize.css from Meyer and created a `root.css` to hold our color palette variables and a `base.css` for the base styles. You can see how we did it [by checking out our css folder](https://github.com/snagy22000/LMD-UI-Framework/blob/gh-pages/src/styles/css/main.css). 
+
+
+
+### What Didn't Work Well 
+
+**Availability**: We struggled with team member availability, which seems to be a normal thing with these hackathons. Given how well-communicated we were, availability was fairly well-mitigated. 
+
+
+
+**Unexpected Things:**  Our fourth member, Obed Ampah, was a last minute arrival and struggled with availability.  It seems that his previous group disbanded, and that team's members were redistributed to existing teams. We made it work by having him work on a new component, but it seemed that this could have been avoided. 
+
+
+
+### Suggestions for Improvement Next Time
+
+We think that one or all of the following would help in the next hackathon: 
+
+- **Pair Programming**: a pair-programming approach would have helped with availability, since any lack of availability from one member of a pair could be handled faster by someone with proper context. It would also improve code and knowledge transfer; 
+- **Group Organization before kick-off**: To avoid any unexpected team issues, maybe a check-in process the day before start would be useful to filter people who drop-off or don't show up. Then any rearrangements could be made before the start time, avoiding re-work overhead for a late addition. Another option is to analyze the drop-offs and come up with a group size that could potentially absorb them. Or maybe a combination of the two. 
 
 
 
