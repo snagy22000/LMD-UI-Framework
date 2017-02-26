@@ -158,6 +158,8 @@ input[type="checkbox"]:checked + label:before {
 .sn-button {
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 15px;
   padding: 13px 20px;
   font-weight: bold;
   transition: background 500ms, color 300ms;
