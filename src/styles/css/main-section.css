@@ -1,0 +1,26 @@
+/* CSS for  <main> */
+
+
+main {
+  background-color: white;
+  margin-top: 50px;
+}
+
+section {
+  border-top: 5px solid var(--faint-secondary-color);
+}
+
+main section {
+  padding-top: 70px;
+}
+
+main>div {
+  border: 1px solid transparent;
+  padding: 100px;
+  padding-bottom: 0;
+}
+
+#button {
+  padding-top: 0;
+  border: none;
+}
