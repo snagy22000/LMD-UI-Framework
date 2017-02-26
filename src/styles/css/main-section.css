@@ -24,3 +24,10 @@ main>div {
   padding-top: 0;
   border: none;
 }
+
+/* For devices smaller than 550px */
+@media (max-width: 550px) {
+  main>div {
+    padding-left: 30px;
+  }
+}
