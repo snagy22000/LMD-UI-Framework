@@ -24,13 +24,17 @@
 }
 
 .mr__tab input[type="checkbox"] + label {
-  color: var(--primary-color);
+  color: var(--soft-secondary-color);
+}
+
+.mr__tab input[type="checkbox"]:checked + label {
+  color: var(--title-color);
 }
 
 input:checked ~ .mr__tab__content {
   padding: 15px 30px;
   max-height: 150px;
-  border-top: solid 3px var(--title-color);
+  border-top: solid 3px var(--primary-color);
 }
 
 .mr__tab__label {
