@@ -1,0 +1,163 @@
+.mr__accordion {
+  margin-bottom: 30px;
+}
+
+.mr__tab {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1px;
+  width: 100%;
+  border-left: 1px solid var(--dark-secondary-color);
+  border-right: 1px solid var(--dark-secondary-color);
+  border-bottom: 1px solid var(--dark-secondary-color);
+}
+
+.mr__tab__content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.mr__tab__input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.mr__tab input[type="checkbox"] + label {
+  color: var(--soft-secondary-color);
+}
+
+.mr__tab input[type="checkbox"]:checked + label {
+  color: var(--title-color);
+}
+
+input:checked ~ .mr__tab__content {
+  padding: 15px 30px;
+  max-height: 150px;
+  border-top: solid 3px var(--primary-color);
+}
+
+.mr__tab__label {
+  background: var(--dark-secondary-color);
+  color: var(--title-color);
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  padding-left: 15px;
+  font-weight: bold;
+  line-height: 3;
+  cursor: pointer;
+}
+
+.mr__tab__label:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 45px;
+  height: 45px;
+  line-height: 3;
+  text-align: center;
+  position: relative;
+}
+
+.mr__accordion input[type=checkbox]:checked + label:after {
+  transform: rotate(315deg);
+  margin-top: 20px;
+}
+
+.mr__accordion input[type=checkbox] + label:after {
+  content: " ";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-right: 2px solid var(--soft-secondary-color);
+  border-top: 2px solid var(--soft-secondary-color);
+  transform: rotate(135deg);
+  margin: 10px 15px;
+  float: right;
+}
+
+
+
+/* Clean */
+
+.clean .mr__tab__label {
+  background-color: #fff;
+}
+
+.clean .mr__tab {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1px;
+  width: 100%;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid var(--faint-secondary-color);
+}
+
+.clean .mr__tab input[type="checkbox"] + label {
+  color: var(--text-color);
+}
+
+div.clean input[type=checkbox] + label:after {
+  content: " ";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--soft-secondary-color);
+  border-top: 2px solid var(--soft-secondary-color);
+  transform: rotate(135deg);
+  margin: 5px 15px;
+  float: none;
+}
+
+div.clean input[type=checkbox]:checked + label:after {
+  transform: rotate(315deg);
+  margin: 0px 15px;
+}
+
+
+
+/* Modern */
+
+.modern .mr__tab__label {
+  background-color: var(--title-color);
+}
+
+.modern .mr__tab {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1px;
+  width: 100%;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.modern input:checked ~ .mr__tab__content {
+  padding: 15px 30px;
+  max-height: 150px;
+  border-top: solid 5px var(--primary-color);
+  background-color: var(--dark-secondary-color);
+}
+
+.modern .mr__tab input[type="checkbox"] + label {
+  color: var(--text-color);
+}
+
+.modern .mr__tab__content p {
+  color: var(--title-color);
+}
+
+.modern .mr__tab__content h2 {
+  color: var(--primary-color);
+}
+
+div.modern input[type=checkbox] + label:after {
+  float: right;
+}
+
+div.modern input[type=checkbox]:checked + label:after {
+
+}
