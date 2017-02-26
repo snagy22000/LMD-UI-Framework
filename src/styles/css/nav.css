@@ -21,6 +21,7 @@ nav li {
   margin: .2em 0;
   padding: .5em;
   padding-right: 2em;
+  transition: all 200ms;
 }
 
 nav li:hover {
