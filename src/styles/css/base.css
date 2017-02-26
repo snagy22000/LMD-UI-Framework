@@ -68,6 +68,10 @@ header {
   background-color: var(--header-background-color);
 }
 
+article {
+  margin: 3em 0; 
+}
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

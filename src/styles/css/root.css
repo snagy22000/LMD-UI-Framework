@@ -17,7 +17,11 @@
   --site-background-color: rgb(36, 40, 45);
   --header-background-color: rgb(26, 28, 32);
   --nav-text-color: rgb(94, 114, 139);
-  --footer-text-color: rgb(65, 73, 83); 
+  --footer-text-color: rgb(65, 73, 83);
+  --button-hover: rgb(63, 198, 237);
+  --button-active: rgb(50, 158, 190);
+  --button-font-light: rgb(251, 255, 255);
+  --button-disabled: rgb(175,175,175);
 
   /*Font used in the Framework*/
   --font-heading: 'Roboto';

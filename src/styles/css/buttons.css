@@ -1,7 +1,6 @@
 /* CSS for Button component -> <section id="button"> */
 
 .cfa-section__buttons li {
-  list-style-type: none;
   margin: 0 1%;
 }
 
@@ -19,9 +18,9 @@
   border-style: solid;
   font-weight: 700;
   font-family: var(--font-content);
-  color: var(--soft-light-blue);
+  color: var(--soft-primary-color);
   background-color: Transparent;
-  border: 1px solid var(--soft-light-blue);
+  border: 1px solid var(--soft-primary-color);
   outline: none;
   padding: 8px 22px;
   min-width: 103px;
