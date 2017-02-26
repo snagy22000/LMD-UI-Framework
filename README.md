@@ -1,4 +1,4 @@
-# LMD Team Hackathon:
+# LMD Team 13 Hackathon:
 ## Project Members:
 * Sebastian Nagy - Project Management, Development
   - Components Card [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_cards/cards/index.html)
@@ -8,9 +8,8 @@
 - Components Accordion
 
 * Carlos Astrada - Development
-- Components Buttons
-
-* Alexandrix Ikechukwu - Development
+- Components Buttons [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_button/button/button.html)
+- Presentation Site
 
 ## Scope:
 Due the days of 24 - 26 the Team has to develop:
@@ -32,8 +31,10 @@ Every Component/Feature will have his own Branch
 * cp_tabs - Branch for the component tabs
 * cp_formel - Branch for the component form_elements
 
+* gh-pages - will be used for the Presentation Site
 
-> ! Master Branches are only after all component's had been tested successfully.
+
+> ! Master Branches is only for Project Documentation.
 
 ## Git Development Workflow:
 
@@ -62,16 +63,16 @@ The Master Branch is only for production and will not be touched due the Develop
 
 ## Color Palette
 
-        :root {
-         --very-light-blue: #A9DDEA; 
-         --soft-light-blue: #69D0EE;
-         --light-blue: #57AEC7;
-         --very-light-gray: #BDBDBD; 
-         --light-gray: #D4D4D4;
-         --dark-gray: #31353B;
-         --title-color: #fff;
-         --content-color: #000;
-        }
+        /*Version with Blue Color as primary*/
+        --faint-primary-color: #A9DDEA;      /* --very-light-blue: #A9DDEA; */
+        --soft-primary-color: #69D0EE;       /*   --soft-light-blue: #69D0EE; */
+        --primary-color: #57AEC7;            /* --light-blue: #57AEC7;*/
+        --faint-secondary-color: #D4D4D4;    /* --very-light-gray: #D4D4D4; */
+        --soft-secondary-color: #BDBDBD;     /* --light-gray: #BDBDBD; */
+        --secondary-color: #D1D0D0;          /* --gray: #D1D0D0; */
+        --dark-secondary-color: #31353B;     /* --dark-gray: #31353B; */
+        --title-color: #fff;
+        --text-color: #000;                  /* --content-color: #000; */
 
 
 ## Rules:
