@@ -96,7 +96,19 @@ li {
     width: 80%;
   }
 
-  .two.columns                    { width: 13.3333333333%; }
-  .ten.columns                    { width: 82.6666666667%; }
+  .two.columns {
+    width: 13.3333333333%;
+  }
 
+  .ten.columns {
+    width: 82.6666666667%;
+  }
+}
+
+
+/* For devices larger than 1250px */
+@media (min-width: 1250px) {
+  .container {
+    width: 1100px;
+  }
 }
