@@ -5,3 +5,6 @@
 @import url("nav.css");
 @import url("main-section.css");
 @import url("footer.css");
+
+/* Import Component CSS */
+@import url("buttons.css");
