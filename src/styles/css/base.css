@@ -1,56 +1,24 @@
 
-/* Grid Styles -- only 2 + 10 columns
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/************ Grid ************/
 .container {
-  position: relative;
-  width: 100%;
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box;
+  position: relative;
+  width: 100%;
 }
 
 .column,
 .columns {
-  width: 100%;
-  float: left;
   box-sizing: border-box;
+  float: left;
+  width: 100%;
 }
 
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
-  .container {
-    width: 85%;
-    padding: 0; }
-}
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
-  .container {
-    width: 80%;
-  }
+/************ Base Styles ************/
 
-  .two.columns                    { width: 13.3333333333%; }
-  .ten.columns                    { width: 82.6666666667%; }
-
-
-  /* Offsets */
-
-  .offset-by-two.column,
-  .offset-by-two.columns          { margin-left: 17.3333333333%; }
-
-  .offset-by-ten.column,
-  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
-
-
-}
-
-
-/* Base Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
-are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%;
 }
@@ -69,12 +37,11 @@ header {
 }
 
 article {
-  margin: 3em 0; 
+  margin: 3em 0;
 }
 
 
-/* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/************ Text ***********/
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   margin-top: 0;
@@ -95,8 +62,7 @@ h2 {
 
 
 
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/************ Anchors ************/
 a {
   text-decoration: none;
 }
@@ -105,9 +71,32 @@ a:hover {
   color: var(--primary-color);
 }
 
-/* Lists
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/************ Lists ************/
 
 li {
   list-style-type: none;
+}
+
+
+
+/*********** Resizing ***********/
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    padding: 0;
+    width: 85%;
+  }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%;
+  }
+
+  .two.columns                    { width: 13.3333333333%; }
+  .ten.columns                    { width: 82.6666666667%; }
+
 }
