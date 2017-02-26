@@ -22,6 +22,7 @@
   border: 1px solid var(--soft-primary-color);
   outline: none;
   padding: 8px 22px;
+  transition: all 500ms;
   min-width: 103px;
   white-space: nowrap;
 }
