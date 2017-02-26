@@ -9,6 +9,20 @@ Overall, the hackathon went well. We used a combination of gitter.im for discuss
 
 ### What We Did Well
 
+We managed to whole project with trello, which was a tremendous help for every member of the team. With this tool everyone of the team had all information about status, changes and any issues of the project.
+Below is a screenshot, just to give an high level overview how we structured our project.
+
+![trello-board](http://i.imgur.com/h1Nkw8n.jpg)
+
+We split the board in different areas. 
+
+* The first column has the newest information - changes which may have an impact to the project, are made in the frist column.
+* The second column shows the task which are assinged to specific team member
+* The third column shows the task which needs to be assinged to specific team member - This is our todo list
+* The fourth column shows the phase for the components - We managed the component with sub phases (in-progress,testing,done) 
+* The sixth column shows the phase for the website - the same sub-phases like in the components (in-progress,testing,done)
+
+
 Apart from being well coordinated and organized, each team member took a component to build. We prefixed all of our respective component styles with our initials to avoid merge conflicts later on. Each component's HTML/CSS was structured in a specific way to make placing in the site as easy and painless as possible: 
 
 - Each component would be a separate `<section>`
