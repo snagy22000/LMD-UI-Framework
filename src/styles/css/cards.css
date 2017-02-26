@@ -7,7 +7,7 @@
   border: 2px solid var(--secondary-color);
   border-radius: 5px;
   padding-bottom: 30px;
-  width: 346px;
+  max-width: 346px;
 }
 
 /*CSS for fluid Layout*/
