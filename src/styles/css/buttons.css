@@ -81,6 +81,11 @@ ul.cfa-container--grouped>div {
 @media (max-width: 970px) {
   .cfa-container {
     flex-direction: column;
+    padding: 0;
+  }
+
+  .cfa-container--grouped>div {
+    margin-left: 0 !important; 
   }
 
   .cfa-container li,
