@@ -1,27 +1,54 @@
 # LMD Team 13 Hackathon:
+
+
+## Executive Summary:
+
+Overall, the hackathon went very well. We used a combination of gitter.im for discussions, Trello for project management, and github for coding. We performed a final review using Floobits for pair-programming. We split the work fairly, set up expectations and communications to coordinate the time-zone differences (Carlos is in Argentina; Sebastian and Michel in Central Europe), and communicated well at every single step. We ended up having enough time to make our site and components responsive. 
+
+
+
+### What We Did Well
+
+Apart from being well coordinated and organized, each team member took a component to build. We prefixed all of our respective component styles with our initials to avoid merge conflicts later on. Each component's HTML/CSS was structured in a specific way to make placing in the site as easy and painless as possible: 
+
+- Each component would be a separate `<section>`
+- Each subsection of a component would be a separate `<article>` 
+- Each component would have its own css, which would be imported into the site's main.css
+
+
+
+The website was built using HTML5 and is responsive. The site structure is fairly modularized whereby each major section, such as the `<header>`, `<nav>`, `<main>`, and `<footer>`, has its own CSS. We also used normalize.css from Meyer and created a `root.css` to hold our color palette variables and a `base.css` for the base styles. You can see how we did it [by checking out our css folder](https://github.com/snagy22000/LMD-UI-Framework/blob/gh-pages/src/styles/css/main.css). 
+
+
+
+
+
 ## Project Members:
+
 * Sebastian Nagy - Project Management, Development
   - Components Card [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_cards/cards/index.html)
   - Components Form [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_formel/src/index.html)
-    
+
 * Michel Rossier - Product Manager, Development
   - Components Accordion
 
 * Carlos Astrada - Development
   - Components Buttons [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_button/button/button.html)
-  - Presentation Site
+  - Presentation Site [Link](https://snagy22000.github.io/LMD-UI-Framework/) 
 
 ## Scope:
 Due the days of 24 - 26 the Team has to develop:
 
-* 5 UI Components
+* At least 5 UI Components
 * 1 Presentation Site
 
-## Branch`s:
+## Branches:
 
 Guideline for Q & A -
 
 * master - add and commit only after testing (one person responsible)
+
+
 
 Every Component/Feature will have his own Branch
 
@@ -39,43 +66,36 @@ Every Component/Feature will have his own Branch
 ## Git Development Workflow:
 
 
-The Master Branch is only for production and will not be touched due the Development.
+The Master Branch is only for production and will not be touched during the Development.
 [GitHub Workflow](https://guides.github.com/introduction/flow/)
 
-1. Checkout you branch which corespondent to your work (components or website)
-    
+1. Each developer checks out the branch corresponding to his work (components or website)
+
         git checkout cp_button
 
         git checkout cp_cards
 
 
-2. Add commits to github - branch
+2. Adds commits to the branch 
 
-        git commit -m " writing clear commit messages" 
+        git commit -m " writing clear commit messages"
 
-3. Open a Pull Request  
+3. Opens a Pull Request  
 
-4. Discuss and review the code
+4. Discusses and reviews the code
 
-5. Deploy to production after rewiev and confirm              
-        
-6. Merge your work with master branch
+5. Deploys to production after successful review
 
-## Color Palette
+6. Mergees work with master branch
 
-        /*Version with Blue Color as primary*/
-        --faint-primary-color: #A9DDEA;      /* --very-light-blue: #A9DDEA; */
-        --soft-primary-color: #69D0EE;       /*   --soft-light-blue: #69D0EE; */
-        --primary-color: #57AEC7;            /* --light-blue: #57AEC7;*/
-        --faint-secondary-color: #D4D4D4;    /* --very-light-gray: #D4D4D4; */
-        --soft-secondary-color: #BDBDBD;     /* --light-gray: #BDBDBD; */
-        --secondary-color: #D1D0D0;          /* --gray: #D1D0D0; */
-        --dark-secondary-color: #31353B;     /* --dark-gray: #31353B; */
-        --title-color: #fff;
-        --text-color: #000;                  /* --content-color: #000; */
+## Color Palette Used
+
+We defined color palette variables for use in our project. These were added to root.css which [can be found here](https://github.com/snagy22000/LMD-UI-Framework/blob/gh-pages/src/styles/css/root.css).  We originally created names based on the colors, but that's not a best practice, so we subsequently modified the names to ignore any specific attributes, like colors. 
 
 
-## Rules:
+## Hackathon Rules:
+
+With the adjustments for our team from [this QA thread](https://qa.moderndeveloper.com/t/hackathon-teams-9-12-13-and-18/2509)
 
 * Don’t copy any code from anywhere. Build your UI elements from scratch.
 * Don’t use JavaScript unless you decide you absolutely need it.
@@ -83,15 +103,5 @@ The Master Branch is only for production and will not be touched due the Develop
 * You don’t have to complete the website during the hackathon. Try to build as many UI elements as possible first; if you have time to build the website or if you feel confident you can complete twenty elements and the website, do both.
 * You must submit your project (a link to the GitHub repo and a link to a live webpage with the elements) before 9 p.m. EST on the last day of the hackathon.
 * Don't use jQuery or any other library. You don't want to download a big library just to use a tooltip.
-* Each team must submit at least two innovative elements; see the details below.
 * Remember that each teammate must submit a writeup no later than 12 hours after you submit your project.
-
-## Project Scope:
-
-1. The Presentation Site needs to be responsive on all devices
-2. To get familiar with the newest web features/technologies the idea is to use CSS Variables (detail soon)
-3. Floobit is as a draft for pair programming (tbd)
-4. ...
-
-
 
