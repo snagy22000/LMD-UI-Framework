@@ -1,0 +1,74 @@
+
+.mrc__tabs {
+  position: relative;
+  min-height: 250px;
+  clear: both;
+  margin: 50px 0 0 0;
+}
+
+.mrc__tabs label {
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: var(--title-color);
+  padding: 15px 50px;
+  border: 1px solid var(--dark-secondary-color);
+  margin-left: -1px;
+  position: relative;
+  left: 1px;
+  top: -38px;
+}
+
+.mrc__tab {
+  float: left;
+}
+
+.mrc__tab:nth-child(1) label {
+  background-color: var(--primary-color);
+}
+
+.mrc__tab:nth-child(2) label {
+  background-color: var(--soft-primary-color);
+  border:0;
+  color: var(--title-color);
+  padding: 12px 50px;
+  top: -35px;
+}
+
+.mrc__tab:nth-child(3) label {
+  background-color: var(--faint-primary-color);
+  border: 0;
+  color: var(--title-color);
+  padding: 10px 50px;
+  top:-33px;
+}
+
+.mrc__tabs [type=radio] {
+  display: none;
+}
+
+.mrc__tabs [type=radio]:checked ~ label {
+  background: var(--title-color);
+  color: var(--text-color);
+  border: 1px solid var(--dark-secondary-color);
+  z-index: 20;
+}
+.mrc__tabs [type=radio]:checked ~ label ~ .mrc__tab__content {
+  z-index: 10;
+  opacity: 1;
+}
+
+.mrc__tab__content {
+  position: absolute;
+  background: var(--title-color);
+  bottom:0;
+  right:0;
+  left:0;
+  top:-1px;
+  padding: 20px;
+  border: 1px solid var(--text-color);
+  opacity:0;
+}
