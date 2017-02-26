@@ -35,7 +35,13 @@ nav li:first-child {
 
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
+
   nav li:hover {
+    border: none;
+    border-bottom: 4px solid var(--primary-color);
+  }
+
+  nav li:first-child {
     border: none;
   }
 
