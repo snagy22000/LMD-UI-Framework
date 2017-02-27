@@ -26,9 +26,16 @@ main>div {
 }
 
 /* For devices smaller than 550px */
-@media (max-width: 550px) {
+@media (max-width: 670px) {
   main>div {
     padding-left: 30px;
+  }
+}
+
+
+/* For devices smaller than 550px */
+@media (max-width: 550px) {
+  main>div {
     padding-top: 30px; 
   }
 }
