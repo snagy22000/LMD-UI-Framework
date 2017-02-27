@@ -3,7 +3,7 @@
 
 ## Executive Summary:
 
-Overall, the hackathon went well. We used a combination of gitter.im for discussions, Trello for project management, and github for coding. We hoped to perform a final review using Floobits for pair-programming but were unable to get to do it. We split the work fairly, set up expectations and communications to coordinate the time-zone differences (Charlie is in Argentina; Sebastian and Michel in Central Europe, and Obed in DC), and communicated well at every single step. Apart from the obvious room for improvement, we ended up having enough time to make our site and components responsive. 
+Overall, the hackathon went well. We used a combination of gitter.im for discussions, Trello for project management, and github for coding. We hoped to perform a final review using Floobits for pair-programming but were unable to get to do it. We split the work fairly, set up expectations and communications to coordinate the time-zone differences (Charlie is in Argentina; Sebastian and Michel in Central Europe, and Obed in Washington, DC), and communicated well at every single step. Apart from the obvious room for improvement, we ended up having enough time to make our site and components responsive. 
 
 
 
@@ -58,15 +58,16 @@ We think that one or all of the following would help in the next hackathon:
 ## Project Members:
 
 * Sebastian Nagy - Project Management, Development
-  - Components Card [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_cards/cards/index.html)
-  - Components Form [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_formel/src/index.html)
+  - Components Card
+  - Components Form
 * Michel Rossier - Product Manager, Development
-  - Components Accordion
+  - Components Accordion 
+  - Components Tab (partially completed by submission deadline)
 * Charlie Astrada - Development
-  - Components Buttons [Link](https://htmlpreview.github.io/?https://github.com/snagy22000/LMD-UI-Framework/blob/cp_button/button/button.html)
+  - Components Buttons
   - Presentation Site [Link](https://snagy22000.github.io/LMD-UI-Framework/) 
 * Obed Ampah - Development
-  * Components Carousel [Link](https://github.com/snagy22000/LMD-UI-Framework/tree/cp_carousel)
+  * Components Carousel (not added to presentation site as it wa not ready in time for deadline) [Link](https://github.com/snagy22000/LMD-UI-Framework/tree/cp_carousel)
 
 ## Scope:
 Due the days of 24 - 26 the Team has to develop:
