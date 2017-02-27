@@ -29,5 +29,6 @@ main>div {
 @media (max-width: 550px) {
   main>div {
     padding-left: 30px;
+    padding-top: 30px; 
   }
 }
