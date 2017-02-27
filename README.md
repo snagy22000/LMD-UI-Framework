@@ -67,7 +67,7 @@ We think that one or all of the following would help in the next hackathon:
   - Components Buttons
   - Presentation Site [Link](https://snagy22000.github.io/LMD-UI-Framework/) 
 * Obed Ampah - Development
-  * Components Carousel (not added to presentation site as it wa not ready in time for deadline) [Link](https://github.com/snagy22000/LMD-UI-Framework/tree/cp_carousel)
+  * Components Carousel (not added to presentation site as it wa not ready in time for deadline) [Link to branch](https://github.com/snagy22000/LMD-UI-Framework/tree/cp_carousel)
 
 ## Scope:
 Due the days of 24 - 26 the Team has to develop:
