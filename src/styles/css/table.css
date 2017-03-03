@@ -9,8 +9,7 @@
     margin: 25px auto;
     border-collapse: collapse;
     border: 1px solid var(--title-color);
-    /*border-bottom: 2px solid var(--soft-primary-color);*/
-    /*box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);*/
+    box-shadow: 0 2px 2px 0px #dadad0;
 }
 
 .sn-table th {
