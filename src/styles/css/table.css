@@ -1,0 +1,111 @@
+
+/********************************/
+/**** TABLE SETUP********/
+/*******************************/
+
+/* Base Setup*/
+
+.sn-table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid var(--title-color);
+    /*border-bottom: 2px solid var(--soft-primary-color);*/
+    /*box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);*/
+}
+
+.sn-table th {
+    font-size: 1.6rem;
+}
+
+/*Table Simple*/
+
+
+.sn-table-simple tr:hover {
+    background: #f4f4f4;
+}
+
+.sn-table-simple td {
+    color: var(--dark-secondary-color);
+}
+
+.sn-table-simple th,
+.sn-table-simple td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+.sn-table-simple th {
+    font-family: var(--font-heading);
+    color: var(--dark-secondary-color);
+}
+
+th.last {
+    border-right: none;
+}
+
+
+ /*Table Colored*/
+
+.sn-table-colored tr:hover {
+    background: #f4f4f4;
+}
+
+.sn-table-colored td {
+    color: var(--dark-secondary-color);
+}
+
+.sn-table-colored th,
+.sn-table-colored td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+.sn-table-colored th {
+    background: var(--soft-primary-color);
+    color: #fff;
+}
+
+th.last {
+    border-right: none;
+}
+
+ /*Editable Colored*/
+ 
+.sn-table-editable tbody tr:hover {
+    background: #f4f4f4;
+}
+
+.sn-table-editable td {
+    color: var(--dark-secondary-color);
+}
+
+.sn-table-editable th,
+.sn-table-editable td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+.sn-table-editable th {
+        color: var(--soft-primary-color);
+    border: 1px solid var(--soft-primary-color);
+}
+
+th.last {
+    border-right: none;
+}
+
+.sn-table-editable tfoot tr {
+    background: var(--soft-primary-color);
+    color: #fff;
+    border-top: 1px solid var(--soft-primary-color);
+}
+
+.sn-table-editable tfoot tr th {
+    color: #fff
+}
