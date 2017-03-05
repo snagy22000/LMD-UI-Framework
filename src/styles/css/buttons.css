@@ -6,14 +6,14 @@
 
 /******* container for the component elements *******/
 
-.cfa-container {
+.t13-button-container {
   display: flex;
   justify-content: flex-start;
 }
 
 
 /****** Basic button styles ******/
-.cfa-button {
+.t13-button {
   border-radius: 3px;
   border-style: solid;
   font-weight: 700;
@@ -28,20 +28,20 @@
   white-space: nowrap;
 }
 
-.cfa-button:hover {
+.t13-button:hover {
   background-color: var(--button-hover);
   color: var(--button-font-light);
   border-color: var(--button-hover);
 
 }
 
-.cfa-button:active {
+.t13-button:active {
   background-color: var(--button-active);
   border-color: var(--button-active);
 }
 
 
-.cfa-button:disabled, .cfa-button--disabled {
+.t13-button:disabled, .t13-button--disabled {
   background-color: var(--button-disabled);
   border-color: var(--button-disabled);
   color: var(--button-font-light);
@@ -53,44 +53,44 @@ i.fa {
 
 
 /****** Rounded button styles *****/
-.cfa-button--rounded {
+.t13-button--rounded {
   border-radius: 20px;
 }
 
 /****** Button Groups *******/
 
-ul.cfa-container--grouped>div>li {
+ul.t13-button-container--grouped>div>li {
   margin: 0;
 }
 
-ul.cfa-container--grouped>div {
+ul.t13-button-container--grouped>div {
   display: flex;
   justify-content: flex-start;
   margin: 0 20px;
 }
 
-.cfa-container__rounded-group li:first-child>button {
+.t13-button-container__rounded-group li:first-child>button {
   border-radius: 20px 0 0 20px;
 }
 
-.cfa-container__rounded-group li:last-child>button {
+.t13-button-container__rounded-group li:last-child>button {
   border-radius: 0 20px 20px 0;
 }
 
 
 /* For devices smaller than 970px */
 @media (max-width: 970px) {
-  .cfa-container {
+  .t13-button-container {
     flex-direction: column;
     padding: 0;
   }
 
-  .cfa-container--grouped>div {
+  .t13-button-container--grouped>div {
     margin-left: 0 !important; 
   }
 
-  .cfa-container li,
-  .cfa-container--grouped>div>li {
+  .t13-button-container li,
+  .t13-button-container--grouped>div>li {
     margin: 8px 0 !important;
   }
 }
