@@ -1,0 +1,116 @@
+
+/********************************/
+/**** LISTS SETUP********/
+/*******************************/
+
+/* Base Setup*/
+.t13-lists-base {
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0px #dadad0;
+    list-style-type: none;
+    overflow: auto;
+    padding: 0;
+    width: 100%;
+    min-width: 0;
+}
+
+
+ /*List Simple*/
+
+.t13-lists-simple-item {
+  border: 0.5px solid var(--secondary-color);
+  padding: 0.875rem;
+  font-weight: 900;
+  transition: all 200ms;
+}
+
+li.t13-lists-simple-item:hover {
+    background: var(--faint-secondary-color);
+    color: #000;
+}
+
+
+ /*List Colored*/ 
+
+.t13-lists-colored-item {
+  background: var(--soft-primary-color);
+  border: 0.5px solid var(--faint-secondary-color);
+  color: var(--title-color);
+  padding: 0.875rem;
+  font-weight: 900;
+  transition: all 200ms;
+}
+
+li.t13-lists-colored-item:hover {
+    background: var(--button-hover);
+}
+
+
+ /*List with Image BASE SETUP*/
+
+ .t13-lists-image-item {
+   display: flex;
+    padding: 13px 10px 0 10px;
+    margin: 20px;
+    overflow-x: hidden;
+    border-top: 0.5px solid var(--soft-primary-color);
+ } 
+
+ /*List with Image ease in Left*/
+
+.t13-lists-image-item-fl-left > img {
+    width: 128px;
+    height: 128px;
+    transform: translateX(400px) rotateX(90deg);
+    transition: transform 2s;
+    opacity: 0;
+  }
+
+  .t13-lists-image-item-fl-left:hover > img {
+    border: 2px solid var(--soft-primary-color);
+    transform: translateX(0px) rotateX(360deg);
+    opacity: 1; 
+ }
+
+.t13-list-image-container-fl-left {
+  transform: translateX(-13rem);
+  transition: all 500ms;
+}
+
+.t13-lists-image-item-fl-left:hover > .t13-list-image-container-fl-left {
+    transform: translateX(1rem);
+}
+
+ .t13-list-image-container-fl-left {
+  margin-left: 1rem;
+ }
+
+ /*List with Image ease in Right*/
+
+.t13-lists-image-item-fl-right > img {
+    width: 128px;
+    height: 128px;
+    transform: translateX(-400px) rotateX(0deg);
+    transition: transform 2s, opacity 3s;
+    opacity: 0;
+  }
+
+  .t13-lists-image-item-fl-right:hover > img {
+    border: 2px solid var(--soft-primary-color);
+    transform: translateX(0px) rotateX(-360deg);
+    opacity: 1;
+    margin-left: 1rem; 
+ }
+
+.t13-list-image-container-fl-right {
+  transform: translateX(12rem);
+  transition: all 500ms;
+}
+
+.t13-lists-image-item-fl-right:hover > .t13-list-image-container-fl-right {
+    transform: translateX(0rem);
+}
+
+ .t13-list-image-container-fl-right {
+  margin-left: 1rem;
+ }

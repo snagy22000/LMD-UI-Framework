@@ -1,0 +1,110 @@
+
+/********************************/
+/**** TABLE SETUP********/
+/*******************************/
+
+/* Base Setup*/
+
+.t13-table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid var(--title-color);
+    box-shadow: 0 2px 2px 0px #dadad0;
+}
+
+.t13-table th {
+    font-size: 1.6rem;
+}
+
+/*Table Simple*/
+
+
+.t13-table-simple tr:hover {
+    background: #f4f4f4;
+}
+
+.t13-table-simple td {
+    color: var(--dark-secondary-color);
+}
+
+.t13-table-simple th,
+.t13-table-simple td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+.t13-table-simple th {
+    font-family: var(--font-heading);
+    color: var(--dark-secondary-color);
+}
+
+th.last {
+    border-right: none;
+}
+
+
+ /*Table Colored*/
+
+.t13-table-colored tr:hover {
+    background: #f4f4f4;
+}
+
+.t13-table-colored td {
+    color: var(--dark-secondary-color);
+}
+
+.t13-table-colored th,
+.t13-table-colored td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+.t13-table-colored th {
+    background: var(--soft-primary-color);
+    color: #fff;
+}
+
+th.last {
+    border-right: none;
+}
+
+ /*Editable Colored*/
+ 
+.t13-table-editable tbody tr:hover {
+    background: #f4f4f4;
+}
+
+.t13-table-editable td {
+    color: var(--dark-secondary-color);
+}
+
+.t13-table-editable th,
+.t13-table-editable td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+.t13-table-editable th {
+        color: var(--soft-primary-color);
+    border: 1px solid var(--soft-primary-color);
+}
+
+th.last {
+    border-right: none;
+}
+
+.t13-table-editable tfoot tr {
+    background: var(--soft-primary-color);
+    color: #fff;
+    border-top: 1px solid var(--soft-primary-color);
+}
+
+.t13-table-editable tfoot tr th {
+    color: #fff
+}

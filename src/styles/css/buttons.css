@@ -19,6 +19,7 @@
   font-weight: 700;
   color: var(--soft-primary-color);
   background-color: Transparent;
+  box-shadow: 0 2px 2px 0px #dadad0;
   border: 1px solid var(--soft-primary-color);
   outline: none;
   padding: 8px 22px;
