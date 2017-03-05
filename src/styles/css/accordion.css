@@ -1,9 +1,9 @@
-.mr__accordion {
+.t13-accordion {
   box-shadow: 0 2px 2px 0px #dadad0;
   margin-bottom: 30px;
 }
 
-.mr__tab {
+.t13-accordion-tab {
   position: relative;
   overflow: hidden;
   margin-bottom: 1px;
@@ -13,32 +13,33 @@
   border-bottom: 1px solid var(--dark-secondary-color);
 }
 
-.mr__tab__content {
+.t13-accordion-tab-content {
   max-height: 0;
   overflow: hidden;
+  transition: all 500ms;
 }
 
-.mr__tab__input {
+.t13-accordion-tab-input {
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
-.mr__tab input[type="checkbox"] + label {
+.t13-accordion-tab input[type="checkbox"] + label {
   color: var(--soft-secondary-color);
 }
 
-.mr__tab input[type="checkbox"]:checked + label {
+.t13-accordion-tab input[type="checkbox"]:checked + label {
   color: var(--title-color);
 }
 
-input:checked ~ .mr__tab__content {
+input:checked ~ .t13-accordion-tab-content {
   padding: 15px 30px;
   max-height: 150px;
   border-top: solid 3px var(--primary-color);
 }
 
-.mr__tab__label {
+.t13-accordion-tab-label {
   background: var(--dark-secondary-color);
   color: var(--title-color);
   text-transform: uppercase;
@@ -50,7 +51,7 @@ input:checked ~ .mr__tab__content {
   cursor: pointer;
 }
 
-.mr__tab__label:after {
+.t13-accordion-tab-label:after {
   position: absolute;
   right: 0;
   top: 0;
@@ -62,12 +63,12 @@ input:checked ~ .mr__tab__content {
   position: relative;
 }
 
-.mr__accordion input[type=checkbox]:checked + label:after {
+.t13-accordion input[type=checkbox]:checked + label:after {
   transform: rotate(315deg);
   margin-top: 20px;
 }
 
-.mr__accordion input[type=checkbox] + label:after {
+.t13-accordion input[type=checkbox] + label:after {
   content: " ";
   display: inline-block;
   width: 12px;
@@ -83,11 +84,11 @@ input:checked ~ .mr__tab__content {
 
 /* Clean */
 
-.clean .mr__tab__label {
+.clean .t13-accordion-tab-label {
   background-color: #fff;
 }
 
-.clean .mr__tab {
+.clean .t13-accordion-tab {
   position: relative;
   overflow: hidden;
   margin-bottom: 1px;
@@ -97,7 +98,7 @@ input:checked ~ .mr__tab__content {
   border-bottom: 2px solid var(--faint-secondary-color);
 }
 
-.clean .mr__tab input[type="checkbox"] + label {
+.clean .t13-accordion-tab input[type="checkbox"] + label {
   color: var(--text-color);
 }
 
@@ -122,11 +123,11 @@ div.clean input[type=checkbox]:checked + label:after {
 
 /* Modern */
 
-.modern .mr__tab__label {
+.modern .t13-accordion-tab-label {
   background-color: var(--title-color);
 }
 
-.modern .mr__tab {
+.modern .t13-accordion-tab {
   position: relative;
   overflow: hidden;
   margin-bottom: 1px;
@@ -136,22 +137,22 @@ div.clean input[type=checkbox]:checked + label:after {
   border-bottom: 0;
 }
 
-.modern input:checked ~ .mr__tab__content {
+.modern input:checked ~ .t13-accordion-tab-content {
   padding: 15px 30px;
   max-height: 150px;
   border-top: solid 5px var(--primary-color);
   background-color: var(--dark-secondary-color);
 }
 
-.modern .mr__tab input[type="checkbox"] + label {
+.modern .t13-accordion-tab input[type="checkbox"] + label {
   color: var(--text-color);
 }
 
-.modern .mr__tab__content p {
+.modern .t13-accordion-tab-content p {
   color: var(--title-color);
 }
 
-.modern .mr__tab__content h2 {
+.modern .t13-accordion-tab-content h2 {
   color: var(--primary-color);
 }
 
@@ -159,6 +160,6 @@ div.modern input[type=checkbox] + label:after {
   float: right;
 }
 
-div.modern input[type=checkbox]:checked + label:after {
+/*div.modern input[type=checkbox]:checked + label:after {
 
-}
+}*/
