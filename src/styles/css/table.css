@@ -5,37 +5,37 @@
 
 /* Base Setup*/
 
-.sn-table {
+.t13-table {
     margin: 25px auto;
     border-collapse: collapse;
     border: 1px solid var(--title-color);
     box-shadow: 0 2px 2px 0px #dadad0;
 }
 
-.sn-table th {
+.t13-table th {
     font-size: 1.6rem;
 }
 
 /*Table Simple*/
 
 
-.sn-table-simple tr:hover {
+.t13-table-simple tr:hover {
     background: #f4f4f4;
 }
 
-.sn-table-simple td {
+.t13-table-simple td {
     color: var(--dark-secondary-color);
 }
 
-.sn-table-simple th,
-.sn-table-simple td {
+.t13-table-simple th,
+.t13-table-simple td {
     color: #999;
     border: 1px solid #eee;
     padding: 12px 35px;
     border-collapse: collapse;
 }
 
-.sn-table-simple th {
+.t13-table-simple th {
     font-family: var(--font-heading);
     color: var(--dark-secondary-color);
 }
@@ -47,23 +47,23 @@ th.last {
 
  /*Table Colored*/
 
-.sn-table-colored tr:hover {
+.t13-table-colored tr:hover {
     background: #f4f4f4;
 }
 
-.sn-table-colored td {
+.t13-table-colored td {
     color: var(--dark-secondary-color);
 }
 
-.sn-table-colored th,
-.sn-table-colored td {
+.t13-table-colored th,
+.t13-table-colored td {
     color: #999;
     border: 1px solid #eee;
     padding: 12px 35px;
     border-collapse: collapse;
 }
 
-.sn-table-colored th {
+.t13-table-colored th {
     background: var(--soft-primary-color);
     color: #fff;
 }
@@ -74,23 +74,23 @@ th.last {
 
  /*Editable Colored*/
  
-.sn-table-editable tbody tr:hover {
+.t13-table-editable tbody tr:hover {
     background: #f4f4f4;
 }
 
-.sn-table-editable td {
+.t13-table-editable td {
     color: var(--dark-secondary-color);
 }
 
-.sn-table-editable th,
-.sn-table-editable td {
+.t13-table-editable th,
+.t13-table-editable td {
     color: #999;
     border: 1px solid #eee;
     padding: 12px 35px;
     border-collapse: collapse;
 }
 
-.sn-table-editable th {
+.t13-table-editable th {
         color: var(--soft-primary-color);
     border: 1px solid var(--soft-primary-color);
 }
@@ -99,12 +99,12 @@ th.last {
     border-right: none;
 }
 
-.sn-table-editable tfoot tr {
+.t13-table-editable tfoot tr {
     background: var(--soft-primary-color);
     color: #fff;
     border-top: 1px solid var(--soft-primary-color);
 }
 
-.sn-table-editable tfoot tr th {
+.t13-table-editable tfoot tr th {
     color: #fff
 }
