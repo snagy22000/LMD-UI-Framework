@@ -20,7 +20,8 @@ main>div {
   padding-bottom: 0;
 }
 
-#button {
+/* adding for first section item */
+#typography {
   padding-top: 0;
   border: none;
 }
