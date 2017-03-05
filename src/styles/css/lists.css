@@ -4,7 +4,7 @@
 /*******************************/
 
 /* Base Setup*/
-.sn-lists-base {
+.t13-list-base {
     border-radius: 4px;
     box-shadow: 0 2px 2px 0px #dadad0;
     list-style-type: none;
@@ -17,14 +17,14 @@
 
  /*List Simple*/
 
-.sn-lists-simple-item {
+.t13-lists-simple-item {
   border: 0.5px solid var(--secondary-color);
   padding: 0.875rem;
   font-weight: 900;
   transition: all 200ms;
 }
 
-li.sn-lists-simple-item:hover {
+li.t13-lists-simple-item:hover {
     background: var(--faint-secondary-color);
     color: #000;
 }
@@ -32,7 +32,7 @@ li.sn-lists-simple-item:hover {
 
  /*List Colored*/ 
 
-.sn-lists-colored-item {
+.t13-lists-colored-item {
   background: var(--soft-primary-color);
   border: 0.5px solid var(--faint-secondary-color);
   color: var(--title-color);
@@ -41,14 +41,14 @@ li.sn-lists-simple-item:hover {
   transition: all 200ms;
 }
 
-li.sn-lists-colored-item:hover {
+li.t13-lists-colored-item:hover {
     background: var(--button-hover);
 }
 
 
  /*List with Image BASE SETUP*/
 
- .sn-lists-image-item {
+ .t13-lists-image-item {
    display: flex;
     padding: 13px 10px 0 10px;
     margin: 20px;
@@ -58,7 +58,7 @@ li.sn-lists-colored-item:hover {
 
  /*List with Image ease in Left*/
 
-.sn-lists-image-item-fl-left > img {
+.t13-lists-image-item-fl-left > img {
     width: 128px;
     height: 128px;
     transform: translateX(400px) rotateX(90deg);
@@ -66,28 +66,28 @@ li.sn-lists-colored-item:hover {
     opacity: 0;
   }
 
-  .sn-lists-image-item-fl-left:hover > img {
+  .t13-lists-image-item-fl-left:hover > img {
     border: 2px solid var(--soft-primary-color);
     transform: translateX(0px) rotateX(360deg);
     opacity: 1; 
  }
 
-.sn-list-image-container-fl-left {
+.t13-list-image-container-fl-left {
   transform: translateX(-13rem);
   transition: all 500ms;
 }
 
-.sn-lists-image-item-fl-left:hover > .sn-list-image-container-fl-left {
+.t13-lists-image-item-fl-left:hover > .t13-list-image-container-fl-left {
     transform: translateX(1rem);
 }
 
- .sn-list-image-container-fl-left {
+ .t13-list-image-container-fl-left {
   margin-left: 1rem;
  }
 
  /*List with Image ease in Right*/
 
-.sn-lists-image-item-fl-right > img {
+.t13-lists-image-item-fl-right > img {
     width: 128px;
     height: 128px;
     transform: translateX(-400px) rotateX(0deg);
@@ -95,22 +95,22 @@ li.sn-lists-colored-item:hover {
     opacity: 0;
   }
 
-  .sn-lists-image-item-fl-right:hover > img {
+  .t13-lists-image-item-fl-right:hover > img {
     border: 2px solid var(--soft-primary-color);
     transform: translateX(0px) rotateX(-360deg);
     opacity: 1;
     margin-left: 1rem; 
  }
 
-.sn-list-image-container-fl-right {
+.t13-list-image-container-fl-right {
   transform: translateX(12rem);
   transition: all 500ms;
 }
 
-.sn-lists-image-item-fl-right:hover > .sn-list-image-container-fl-right {
+.t13-lists-image-item-fl-right:hover > .t13-list-image-container-fl-right {
     transform: translateX(0rem);
 }
 
- .sn-list-image-container-fl-right {
+ .t13-list-image-container-fl-right {
   margin-left: 1rem;
  }
