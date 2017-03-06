@@ -8,7 +8,7 @@
 
 .t13-button-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 
@@ -86,7 +86,7 @@ ul.t13-button-container--grouped>div {
   }
 
   .t13-button-container--grouped>div {
-    margin-left: 0 !important; 
+    margin-left: 0 !important;
   }
 
   .t13-button-container li,
