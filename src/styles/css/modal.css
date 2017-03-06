@@ -56,3 +56,28 @@
     background-color: var(--button-hover);
     color: #fff;
 }
+
+
+/* Rezizing Mobile-first */
+
+@media (min-width: 400px) {
+  .t13-modal-box > div {
+    width: 80%;
+    height: 36%;
+    padding-bottom: 36%;
+  }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .t13-modal-box > div {
+    width: 80%;
+    padding-bottom: 30%;
+    max-width: 800px;
+  }
+
+  .t13-modal-box > div iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
