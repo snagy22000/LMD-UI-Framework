@@ -2,3 +2,10 @@
   background: var(--soft-primary-color);
   color: #fff;
 }
+
+span.t13-span {
+  border: 2px solid #93ddf5;    
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+}
