@@ -60,12 +60,16 @@ We think that one or all of the following would help in the next hackathon:
 * Sebastian Nagy - Project Management, Development
   - Components Card
   - Components Form
+  - Component List
+  - Component Table
+  - Innovation CP Text2Speech
 * Michel Rossier - Product Manager, Development
   - Components Accordion 
   - Components Tab (partially completed by submission deadline)
 * Charlie Astrada - Development
   - Components Buttons
   - Presentation Site [Link](https://snagy22000.github.io/LMD-UI-Framework/) 
+  - Component Modal
 * Obed Ampah - Development
   * Components Carousel (not added to presentation site as it wa not ready in time for deadline) [Link to branch](https://github.com/snagy22000/LMD-UI-Framework/tree/cp_carousel)
 
