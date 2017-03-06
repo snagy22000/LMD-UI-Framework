@@ -21,7 +21,8 @@
 }
 
 .t13-modal-box > div {
-    width: 400px;
+    width: 640px;
+    height: 500px;
     position: fixed;
     left: 50%;
     top: 50%;
