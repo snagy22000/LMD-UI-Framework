@@ -43,6 +43,7 @@ article {
 blockquote {
   background-color: var(--soft-secondary-color);
   border-left: 3px solid var(--soft-primary-color);
+  padding: 10px;
 }
 
 
