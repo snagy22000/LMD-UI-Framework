@@ -8,6 +8,7 @@
 @import url("code.css");
 
 /* Import Component CSS */
+@import url("pagination.css");
 @import url("buttons.css");
 @import url("cards.css");
 @import url("forms.css");

@@ -35,6 +35,7 @@
                             <h1>UI&nbsp;Components</h1>
                         </li>
                         <li><a href="#typography">Typography</a></li>
+                        <li><a href="#section-pagination">Pagination</a></li>
                         <li><a href="#button">Buttons</a></li>
                         <li><a href="#cards">Cards</a></li>
                         <li><a href="#accordions">Accordions</a></li>
@@ -109,26 +110,61 @@
                         </section>
                     </div>
 
+                    <!--SECTION FOR PAGINATION -->
+                    <div>
+                        <section class="pagination" id="section-pagination">
+                            <h1>Pagination</h1>
+                            <p>The pagination component makes use of unordered lists. Icons generated with Font Awesome.</p>
+                            <article>
+                                <h2>Basic Style</h2>
+                                <ol class="c-pagination">
+                                    <li class="c-pagination__chevron"><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+                                    <li class="c-pagination__item"><a href="#">1</a></li>
+                                    <li class="c-pagination__item"><a href="#">2</a></li>
+                                    <li class="c-pagination__item is-active"><a href="#">3</a></li>
+                                    <li class="c-pagination__item"><a href="#">4</a></li>
+                                    <li class="c-pagination__item"><a href="#">5</a></li>
+                                    <li class="c-pagination__chevron"><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                                </ol>
+                            </article>
+
+                            <article>
+                                <h2>Bordered Style</h2>
+                                <ol class="c-pagination">
+                                    <li class="c-pagination__chevron"><a href="# "><i class="fa fa-chevron-left "></i></a></li>
+                                    <li class="c-pagination__item c-pagination__item--bordered "><a href="# ">1</a></li>
+                                    <li class="c-pagination__item c-pagination__item--bordered "><a href="# ">2</a></li>
+                                    <li class="c-pagination__item--bordered is-active"><a href="# ">3</a></li>
+                                    <li class="c-pagination__item c-pagination__item--bordered "><a href="# ">4</a></li>
+                                    <li class="c-pagination__item c-pagination__item--bordered "><a href="# ">5</a></li>
+                                    <li class="c-pagination__chevron"><a href="# "><i class="fa fa-chevron-right "></i></a></li>
+                                </ol>
+                            </article>
+
+
+                        </section>
+                    </div>
+
                     <!--SECTION FOR BUTTONS-->
                     <div>
-                        <section class="t13-section__buttons" id="button">
+                        <section class="t13-section__buttons " id="button ">
                             <h1>Buttons</h1>
                             <p>Hover and click on elements to see the hover and active styles.</p>
 
                             <article>
                                 <h2>Basic</h2>
-                                <ul class="t13-button-container">
-                                    <li><button class="t13-button">Primary</button></li>
-                                    <li><button class="t13-button"><i class="fa fa-send"></i>Send</button></li>
-                                    <li><button class="t13-button"><i class="fa fa-user-plus"></i>Add User</button></li>
-                                    <li><button class="t13-button" disabled><i class="fa fa-cog"></i>Settings</button></li>
+                                <ul class="t13-button-container ">
+                                    <li><button class="t13-button ">Primary</button></li>
+                                    <li><button class="t13-button "><i class="fa fa-send "></i>Send</button></li>
+                                    <li><button class="t13-button "><i class="fa fa-user-plus "></i>Add User</button></li>
+                                    <li><button class="t13-button " disabled><i class="fa fa-cog "></i>Settings</button></li>
                                 </ul>
                             </article>
 
-                            <div class="t13-code-container">
-                                <input type="checkbox" id="#t13-code-1" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-1" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container ">
+                                <input type="checkbox " id="#t13-code-1 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-1 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;h2&gt;Basic&lt;/h2&gt;&lt;br /&gt;<br />
 &lt;ul class=&quot;t13-button-container&quot;&gt;&lt;br /&gt;<br />
     &lt;li&gt;&lt;button class=&quot;t13-button&quot;&gt;Primary&lt;/button&gt;&lt;/li&gt;&lt;br /&gt;<br />
@@ -138,22 +174,22 @@
 &lt;/ul&gt;
                               </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
                             <article>
                                 <h2>Rounded</h2>
-                                <ul class="t13-button-container">
-                                    <li><button class="t13-button t13-button--rounded">Primary</button></li>
-                                    <li><button class="t13-button t13-button--rounded"><i class="fa fa-send"></i>Send</button></li>
-                                    <li><button class="t13-button t13-button--rounded"><i class="fa fa-user-plus"></i>Add User</button></li>
-                                    <li><button class="t13-button t13-button--rounded" disabled><i class="fa fa-cog"></i>Settings</button></li>
+                                <ul class="t13-button-container ">
+                                    <li><button class="t13-button t13-button--rounded ">Primary</button></li>
+                                    <li><button class="t13-button t13-button--rounded "><i class="fa fa-send "></i>Send</button></li>
+                                    <li><button class="t13-button t13-button--rounded "><i class="fa fa-user-plus "></i>Add User</button></li>
+                                    <li><button class="t13-button t13-button--rounded " disabled><i class="fa fa-cog "></i>Settings</button></li>
                                 </ul>
                             </article>
 
-                            <div class="t13-code-container">
-                                <input type="checkbox" id="#t13-code-2" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-2" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container ">
+                                <input type="checkbox " id="#t13-code-2 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-2 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;ul class=&quot;t13-button-container&quot;&gt;
 <br />&lt;li&gt;&lt;button class=&quot;t13-button t13-button--rounded&quot;&gt;Primary&lt;/button&gt;&lt;/li&gt;
 <br />&lt;li&gt;&lt;button class=&quot;t13-button t13-button--rounded&quot;&gt;&lt;i class=&quot;fa fa-send&quot;&gt;&lt;/i&gt;Send&lt;/button&gt;&lt;/li&gt;
@@ -162,27 +198,27 @@
 <br />&lt;/ul&gt;
                               </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
                             <article>
                                 <h2>Button Groups</h2>
-                                <ul class="t13-button-container t13-button-container--grouped">
+                                <ul class="t13-button-container t13-button-container--grouped ">
                                     <div>
-                                        <li><button class="t13-button">Button 1</button></li>
-                                        <li><button class="t13-button" disabled>Button 2</button></li>
+                                        <li><button class="t13-button ">Button 1</button></li>
+                                        <li><button class="t13-button " disabled>Button 2</button></li>
                                     </div>
-                                    <div class="t13-button-container__rounded-group">
-                                        <li><button class="t13-button">Button 1</button></li>
-                                        <li><button class="t13-button" disabled>Button 2</button></li>
+                                    <div class="t13-button-container__rounded-group ">
+                                        <li><button class="t13-button ">Button 1</button></li>
+                                        <li><button class="t13-button " disabled>Button 2</button></li>
                                     </div>
                                 </ul>
 
                             </article>
 
-                            <div class="t13-code-container">
-                                <input type="checkbox" id="#t13-code-3" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-3" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container ">
+                                <input type="checkbox " id="#t13-code-3 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-3 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;ul class=&quot;t13-button-container t13-button-container--grouped&quot;&gt;
 &lt;div&gt;
     &lt;li&gt;&lt;button class=&quot;t13-button&quot;&gt;Button 1&lt;/button&gt;&lt;/li&gt;
@@ -195,40 +231,40 @@
 &lt;/ul&gt;
                               </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
                         </section>
                     </div>
 
                     <!--SECTION FOR CARDS-->
                     <div>
-                        <section class="t13-section__cards" id="cards">
+                        <section class="t13-section__cards " id="cards ">
                             <h1>Cards</h1>
                             <p>Hover and click on elements to see the hover and active styles.</p>
 
                             <article>
                                 <h2>Article Teaser</h2>
                                 <!--Firt Version of Card-->
-                                <div class="t13-card">
-                                    <div class="t13-card-image">
-                                        <h2 class="t13-card-title">Travel</h2>
+                                <div class="t13-card ">
+                                    <div class="t13-card-image ">
+                                        <h2 class="t13-card-title ">Travel</h2>
                                     </div>
-                                    <div class="t13-card-main">
-                                        <h4 class="t13-card-main-date">April, 2017</h4>
-                                        <h2 class="t13-card-main-title">Travel around the World - $ 10.000</h2>
-                                        <hr class="t13-card-hr">
-                                        <p class="t13-card-main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ex explicabo fugiat minus neque qui quibusdam. Accusamus facilis ipsa laborum, neque quos sequi voluptatum! Earum eius iusto molestias obcaecati voluptate?Lorem
+                                    <div class="t13-card-main ">
+                                        <h4 class="t13-card-main-date ">April, 2017</h4>
+                                        <h2 class="t13-card-main-title ">Travel around the World - $ 10.000</h2>
+                                        <hr class="t13-card-hr ">
+                                        <p class="t13-card-main-content ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ex explicabo fugiat minus neque qui quibusdam. Accusamus facilis ipsa laborum, neque quos sequi voluptatum! Earum eius iusto molestias obcaecati voluptate?Lorem
                                             ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam asperiores aspernatur cum, dolorem fugiat illum incidunt maxime molestiae natus
                                             necessitatibus quia quisquam, rerum similique voluptatibus. Accusamus consectetur porro sed. lendus repudiandae tempore vitae voluptatibus!</p>
-                                        <span class="t13-cards-button t13-cards-button-primary t13-cards-button-hover">Read more..</span>
+                                        <span class="t13-cards-button t13-cards-button-primary t13-cards-button-hover ">Read more..</span>
                                     </div>
                                 </div>
                             </article>
 
-                            <div class="t13-code-container">
-                                <input type="checkbox" id="#t13-code-4" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-4" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container ">
+                                <input type="checkbox " id="#t13-code-4 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-4 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-card&quot;&gt;
   &lt;div class=&quot;t13-card-image&quot;&gt;
       &lt;h2 class=&quot;t13-card-title&quot;&gt;Travel&lt;/h2&gt;
@@ -243,32 +279,32 @@
 &lt;/div&gt;
                 </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
                             <article>
                                 <h2>Contact Card</h2>
                                 <!--Second Version of Card-->
-                                <div class="t13-card">
-                                    <div class="t13-card-image">
-                                        <img class="t13-card-profile-img" src="https://randomuser.me/api/portraits/women/11.jpg" alt="profile-pic">
+                                <div class="t13-card ">
+                                    <div class="t13-card-image ">
+                                        <img class="t13-card-profile-img " src="https://randomuser.me/api/portraits/women/11.jpg " alt="profile-pic ">
                                     </div>
-                                    <div class="t13-card-main-profile">
-                                        <h1 class="t13-card-main-profile-name">Peyton Anderson </h1>
-                                        <h3 class="t13-card-main-profile-name-desc">Senior Frontend Developer</h3>
-                                        <hr class="t13-card-hr t13-card-hr-gray">
-                                        <div class="t13-card-profile-social">
-                                            <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                                            <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <div class="t13-card-main-profile ">
+                                        <h1 class="t13-card-main-profile-name ">Peyton Anderson </h1>
+                                        <h3 class="t13-card-main-profile-name-desc ">Senior Frontend Developer</h3>
+                                        <hr class="t13-card-hr t13-card-hr-gray ">
+                                        <div class="t13-card-profile-social ">
+                                            <a href=" "><i class="fa fa-envelope " aria-hidden="true "></i></a>
+                                            <a href=" "><i class="fa fa-facebook-square " aria-hidden="true "></i></a>
+                                            <a href=" "><i class="fa fa-twitter " aria-hidden="true "></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
-                            <div class="t13-code-container">
-                                <input type="checkbox" id="#t13-code-5" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-5" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container ">
+                                <input type="checkbox " id="#t13-code-5 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-5 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-card&quot;&gt;
   &lt;div class=&quot;t13-card-image&quot;&gt;
     &lt;img class=&quot;t13-card-profile-img&quot; src=&quot;https://randomuser.me/api/portraits/women/11.jpg&quot; alt=&quot;profile-pic&quot;&gt;
@@ -286,24 +322,24 @@
 &lt;/div&gt;
                 </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
 
                             <article>
                                 <h2>Call to Action Card</h2>
                                 <!--Third Version of Card-->
-                                <div class="t13-card">
-                                    <div class="t13-card-action">
-                                        <div class="t13-card-header">
-                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                <div class="t13-card ">
+                                    <div class="t13-card-action ">
+                                        <div class="t13-card-header ">
+                                            <i class="fa fa-pencil " aria-hidden="true "></i>
                                         </div>
-                                        <div class="t13-card-main">
-                                            <h2 class="t13-card-main-title t13-cards-text-big">Take a survey?</h2>
-                                            <p class="t13-card-main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ex explicabo fugiat minus neque qui quibusdam. Accusamus facilis ipsa laborum, neque quos sequi voluptatum! Earum eius iusto molestias obcaecati
+                                        <div class="t13-card-main ">
+                                            <h2 class="t13-card-main-title t13-cards-text-big ">Take a survey?</h2>
+                                            <p class="t13-card-main-content ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ex explicabo fugiat minus neque qui quibusdam. Accusamus facilis ipsa laborum, neque quos sequi voluptatum! Earum eius iusto molestias obcaecati
                                                 voluptate?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             </p>
-                                            <div class="t13-cards-button t13-cards-button-container">
-                                                <span class="t13-cards-button t13-cards-button-gray t13-cards-button-gray-hover">Nope</span>
+                                            <div class="t13-cards-button t13-cards-button-container ">
+                                                <span class="t13-cards-button t13-cards-button-gray t13-cards-button-gray-hover ">Nope</span>
                                                 <span class="t13-cards-button t13-cards-button-primary t13-cards-button-hover ">Okay!</span>
                                             </div>
                                         </div>
@@ -311,10 +347,10 @@
                                 </div>
                             </article>
 
-                            <div class="t13-code-container">
-                                <input type="checkbox" id="#t13-code-6" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-6" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container ">
+                                <input type="checkbox " id="#t13-code-6 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-6 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-card&quot;&gt;
   &lt;div class=&quot;t13-card-action&quot;&gt;
     &lt;div class=&quot;t13-card-header&quot;&gt;
@@ -335,25 +371,25 @@
 &lt;/div&gt;
                 </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
 
 
                             <article>
                                 <h2>Call to Action Card Fluid</h2>
                                 <!--Third Version of Card-->
-                                <div class="t13-card t13-card-fluid">
-                                    <div class="t13-card-action">
-                                        <div class="t13-card-header">
-                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                <div class="t13-card t13-card-fluid ">
+                                    <div class="t13-card-action ">
+                                        <div class="t13-card-header ">
+                                            <i class="fa fa-pencil " aria-hidden="true "></i>
                                         </div>
-                                        <div class="t13-card-main">
-                                            <h2 class="t13-card-main-title t13-cards-text-big">Take a survey?</h2>
-                                            <p class="t13-card-main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ex explicabo fugiat minus neque qui quibusdam. Accusamus facilis ipsa laborum, neque quos sequi voluptatum! Earum eius iusto molestias obcaecati
+                                        <div class="t13-card-main ">
+                                            <h2 class="t13-card-main-title t13-cards-text-big ">Take a survey?</h2>
+                                            <p class="t13-card-main-content ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ex explicabo fugiat minus neque qui quibusdam. Accusamus facilis ipsa laborum, neque quos sequi voluptatum! Earum eius iusto molestias obcaecati
                                                 voluptate?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             </p>
-                                            <div class="t13-cards-button t13-cards-button-container">
-                                                <span class="t13-cards-button t13-cards-button-gray t13-cards-button-gray-hover">Nope</span>
+                                            <div class="t13-cards-button t13-cards-button-container ">
+                                                <span class="t13-cards-button t13-cards-button-gray t13-cards-button-gray-hover ">Nope</span>
                                                 <span class="t13-cards-button t13-cards-button-primary t13-cards-button-hover ">Okay!</span>
                                             </div>
                                         </div>
@@ -361,10 +397,10 @@
                                 </div>
                             </article>
 
-                            <div class="t13-code-container">
-                                <input type="checkbox" id="#t13-code-7" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-7" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container ">
+                                <input type="checkbox " id="#t13-code-7 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-7 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-card t13-card-fluid&quot;&gt;
   &lt;div class=&quot;t13-card-action&quot;&gt;
     &lt;div class=&quot;t13-card-header&quot;&gt;
@@ -385,7 +421,7 @@
 &lt;/div&gt;
                 </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
 
                         </section>
@@ -397,36 +433,36 @@
 
                     <!--SECTION FOR ACCORDIONS-->
                     <div>
-                        <section class="t13-section__accordions" id="accordions">
+                        <section class="t13-section__accordions " id="accordions ">
                             <h1>Accordions</h1>
                             <p>Hover and click on elements to see the hover and active styles.</p>
 
                             <article>
                                 <h2>Default Accordion</h2>
                                 <!---->
-                                <div class="t13-accordion">
-                                    <div class="t13-accordion-tab">
-                                        <input class="t13-accordion-tab-input" id="section1" type="checkbox">
-                                        <label class="t13-accordion-tab-label" for="section1">Section 1</label>
-                                        <div class="t13-accordion-tab-content">
+                                <div class="t13-accordion ">
+                                    <div class="t13-accordion-tab ">
+                                        <input class="t13-accordion-tab-input " id="section1 " type="checkbox ">
+                                        <label class="t13-accordion-tab-label " for="section1 ">Section 1</label>
+                                        <div class="t13-accordion-tab-content ">
                                             <h2>Cows Everywhere</h2>
                                             <p>Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur
                                                 adipisicing elit.</p>
                                         </div>
                                     </div>
-                                    <div class="t13-accordion-tab">
-                                        <input class="t13-accordion-tab-input" id="section2" type="checkbox">
-                                        <label class="t13-accordion-tab-label" for="section2">Section 2</label>
-                                        <div class="t13-accordion-tab-content">
+                                    <div class="t13-accordion-tab ">
+                                        <input class="t13-accordion-tab-input " id="section2 " type="checkbox ">
+                                        <label class="t13-accordion-tab-label " for="section2 ">Section 2</label>
+                                        <div class="t13-accordion-tab-content ">
                                             <h2>Even more Cows Everywhere</h2>
                                             <p>Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur
                                                 adipisicing elit.</p>
                                         </div>
                                     </div>
-                                    <div class="t13-accordion-tab">
-                                        <input class="t13-accordion-tab-input" id="section3" type="checkbox">
-                                        <label class="t13-accordion-tab-label" for="section3">Section 3</label>
-                                        <div class="t13-accordion-tab-content">
+                                    <div class="t13-accordion-tab ">
+                                        <input class="t13-accordion-tab-input " id="section3 " type="checkbox ">
+                                        <label class="t13-accordion-tab-label " for="section3 ">Section 3</label>
+                                        <div class="t13-accordion-tab-content ">
                                             <h2>Cow alarm</h2>
                                             <p>Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur
                                                 adipisicing elit.</p>
@@ -434,10 +470,10 @@
                                     </div>
                                 </div>
 
-                                <div class="t13-code-container">
-                                    <input type="checkbox" id="#t13-code-8" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-8" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container ">
+                                    <input type="checkbox " id="#t13-code-8 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-8 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-accordion&quot;&gt;
   &lt;div class=&quot;t13-accordion-tab&quot;&gt;
     &lt;input class=&quot;t13-accordion-tab-input&quot; id=&quot;section1&quot; type=&quot;checkbox&quot;&gt;
@@ -472,37 +508,37 @@
 &lt;/div&gt;
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
 
                                 <!-- Variation Clean -->
 
-                                <h2 style="margin-top: 3rem;">Clean Accordion</h2>
+                                <h2 style="margin-top: 3rem; ">Clean Accordion</h2>
 
-                                <div class="t13-accordion clean">
+                                <div class="t13-accordion clean ">
 
-                                    <div class="t13-accordion-tab">
-                                        <input class="t13-accordion-tab-input" id="cleansection1" type="checkbox">
-                                        <label class="t13-accordion-tab-label" for="cleansection1">Section 1</label>
-                                        <div class="t13-accordion-tab-content">
+                                    <div class="t13-accordion-tab ">
+                                        <input class="t13-accordion-tab-input " id="cleansection1 " type="checkbox ">
+                                        <label class="t13-accordion-tab-label " for="cleansection1 ">Section 1</label>
+                                        <div class="t13-accordion-tab-content ">
                                             <h2>Cows Everywhere</h2>
                                             <p>Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur
                                                 adipisicing elit.</p>
                                         </div>
                                     </div>
-                                    <div class="t13-accordion-tab">
-                                        <input class="t13-accordion-tab-input" id="cleansection2" type="checkbox">
-                                        <label class="t13-accordion-tab-label" for="cleansection2">Section 2</label>
-                                        <div class="t13-accordion-tab-content">
+                                    <div class="t13-accordion-tab ">
+                                        <input class="t13-accordion-tab-input " id="cleansection2 " type="checkbox ">
+                                        <label class="t13-accordion-tab-label " for="cleansection2 ">Section 2</label>
+                                        <div class="t13-accordion-tab-content ">
                                             <h2>Even more Cows Everywhere</h2>
                                             <p>Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur
                                                 adipisicing elit.</p>
                                         </div>
                                     </div>
-                                    <div class="t13-accordion-tab">
-                                        <input class="t13-accordion-tab-input" id="cleansection3" type="checkbox">
-                                        <label class="t13-accordion-tab-label" for="cleansection3">Section 3</label>
-                                        <div class="t13-accordion-tab-content">
+                                    <div class="t13-accordion-tab ">
+                                        <input class="t13-accordion-tab-input " id="cleansection3 " type="checkbox ">
+                                        <label class="t13-accordion-tab-label " for="cleansection3 ">Section 3</label>
+                                        <div class="t13-accordion-tab-content ">
                                             <h2>Cow alarm</h2>
                                             <p>Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur
                                                 adipisicing elit.</p>
@@ -510,10 +546,10 @@
                                     </div>
                                 </div>
 
-                                <div class="t13-code-container">
-                                    <input type="checkbox" id="#t13-code-9" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-9" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container ">
+                                    <input type="checkbox " id="#t13-code-9 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-9 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-accordion clean&quot;&gt;
   &lt;div class=&quot;t13-accordion-tab&quot;&gt;
     &lt;input class=&quot;t13-accordion-tab-input&quot; id=&quot;cleansection1&quot; type=&quot;checkbox&quot;&gt;
@@ -548,36 +584,36 @@
 &lt;/div&gt;
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
 
                                 <!-- Variation Modern -->
-                                <h2 style="margin-top: 3rem;">Modern Accordion</h2>
+                                <h2 style="margin-top: 3rem; ">Modern Accordion</h2>
 
-                                <div class="t13-accordion modern">
+                                <div class="t13-accordion modern ">
 
-                                    <div class="t13-accordion-tab">
-                                        <input class="t13-accordion-tab-input" id="modernsection1" type="checkbox">
-                                        <label class="t13-accordion-tab-label" for="modernsection1">Section 1</label>
-                                        <div class="t13-accordion-tab-content">
+                                    <div class="t13-accordion-tab ">
+                                        <input class="t13-accordion-tab-input " id="modernsection1 " type="checkbox ">
+                                        <label class="t13-accordion-tab-label " for="modernsection1 ">Section 1</label>
+                                        <div class="t13-accordion-tab-content ">
                                             <h2>Cows Everywhere</h2>
                                             <p>Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur
                                                 adipisicing elit.</p>
                                         </div>
                                     </div>
-                                    <div class="t13-accordion-tab">
-                                        <input class="t13-accordion-tab-input" id="modernsection2" type="checkbox">
-                                        <label class="t13-accordion-tab-label" for="modernsection2">Section 2</label>
-                                        <div class="t13-accordion-tab-content">
+                                    <div class="t13-accordion-tab ">
+                                        <input class="t13-accordion-tab-input " id="modernsection2 " type="checkbox ">
+                                        <label class="t13-accordion-tab-label " for="modernsection2 ">Section 2</label>
+                                        <div class="t13-accordion-tab-content ">
                                             <h2>Even more Cows Everywhere</h2>
                                             <p>Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur
                                                 adipisicing elit.</p>
                                         </div>
                                     </div>
-                                    <div class="t13-accordion-tab">
-                                        <input class="t13-accordion-tab-input" id="modernsection3" type="checkbox">
-                                        <label class="t13-accordion-tab-label" for="modernsection3">Section 3</label>
-                                        <div class="t13-accordion-tab-content">
+                                    <div class="t13-accordion-tab ">
+                                        <input class="t13-accordion-tab-input " id="modernsection3 " type="checkbox ">
+                                        <label class="t13-accordion-tab-label " for="modernsection3 ">Section 3</label>
+                                        <div class="t13-accordion-tab-content ">
                                             <h2>Cow alarm</h2>
                                             <p>Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur adipisicing elit. Bacon ipsum dolor sit amet, consectetur
                                                 adipisicing elit.</p>
@@ -585,10 +621,10 @@
                                     </div>
                                 </div>
 
-                                <div class="t13-code-container">
-                                    <input type="checkbox" id="#t13-code-10" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-10" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container ">
+                                    <input type="checkbox " id="#t13-code-10 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-10 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-accordion modern&quot;&gt;
   &lt;div class=&quot;t13-accordion-tab&quot;&gt;
     &lt;input class=&quot;t13-accordion-tab-input&quot; id=&quot;modernsection1&quot; type=&quot;checkbox&quot;&gt;
@@ -623,7 +659,7 @@
 &lt;/div&gt;
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
                             </article>
                         </section>
@@ -632,7 +668,7 @@
 
                     <!--SECTION FOR TABS-->
                     <div>
-                        <section class="t13-section__tabs" id="tabs">
+                        <section class="t13-section__tabs " id="tabs ">
                             <h1>Tabs</h1>
                             <p>Hover and click on elements to see the hover and active styles.</p>
 
@@ -640,42 +676,42 @@
                                 <h2>Horizontal tabs</h2>
                                 <!---->
 
-                                <div class="t13-hz-tabs">
+                                <div class="t13-hz-tabs ">
 
-                                    <div class="t13-hz-tab">
-                                        <input type="radio" id="t13-hz-tab1" checked name="t13-hz-tab">
-                                        <label for="t13-hz-tab1">Tab 1</label>
-                                        <div class="t13-hz-tab__content">
+                                    <div class="t13-hz-tab ">
+                                        <input type="radio " id="t13-hz-tab1 " checked name="t13-hz-tab ">
+                                        <label for="t13-hz-tab1 ">Tab 1</label>
+                                        <div class="t13-hz-tab__content ">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto a officiis totam eos sed architecto, rem vitae qui placeat, natus quae reprehenderit nihil dolor voluptas suscipit ex, minima ipsum ratione?</p>
                                         </div>
                                     </div>
 
-                                    <div class="t13-hz-tab">
-                                        <input type="radio" id="t13-hz-tab2" name="t13-hz-tab">
-                                        <label for="t13-hz-tab2">Tab 2</label>
-                                        <div class="t13-hz-tab__content">
+                                    <div class="t13-hz-tab ">
+                                        <input type="radio " id="t13-hz-tab2 " name="t13-hz-tab ">
+                                        <label for="t13-hz-tab2 ">Tab 2</label>
+                                        <div class="t13-hz-tab__content ">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quis vero eaque, amet vel quia. Tenetur ipsum hic eum dolorem sunt eius odio, quisquam nesciunt cumque delectus, aperiam ab neque?</p>
                                         </div>
                                     </div>
 
-                                    <div class="t13-hz-tab">
-                                        <input type="radio" id="t13-hz-tab3" name="t13-hz-tab">
-                                        <label for="t13-hz-tab3">Tab 3</label>
-                                        <div class="t13-hz-tab__content">
+                                    <div class="t13-hz-tab ">
+                                        <input type="radio " id="t13-hz-tab3 " name="t13-hz-tab ">
+                                        <label for="t13-hz-tab3 ">Tab 3</label>
+                                        <div class="t13-hz-tab__content ">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo repellat vel fugiat, doloremque, commodi ipsam et voluptatibus totam tempore, fuga possimus nihil libero aliquam officiis, porro consequatur vitae
                                                 sed sit.</p>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="t13-code-container">
-                                    <input type="checkbox" id="#t13-code-11" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-11" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container ">
+                                    <input type="checkbox " id="#t13-code-11 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-11 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
 
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
 
 
@@ -686,14 +722,14 @@
 
 
                                 <!---->
-                                <div class="t13-code-container">
-                                    <input type="checkbox" id="#t13-code-12" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-12" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container ">
+                                    <input type="checkbox " id="#t13-code-12 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-12 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
 
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
                             </article>
 
@@ -702,7 +738,7 @@
 
                     <!--SECTION FOR FORMS-->
                     <div>
-                        <section class="t13-section__forms" id="forms">
+                        <section class="t13-section__forms " id="forms ">
                             <h1>Forms</h1>
                             <p>Hover and click on elements to see the hover and active styles.</p>
 
@@ -710,49 +746,49 @@
                                 <h2>Signup</h2>
                                 <!--Sign Up Form-->
 
-                                <div class="t13-form-signup t13-form-fluid">
-                                    <header class="t13-form-header">
-                                        <h1 class="t13-form-signup-title">Join Us.</h1>
+                                <div class="t13-form-signup t13-form-fluid ">
+                                    <header class="t13-form-header ">
+                                        <h1 class="t13-form-signup-title ">Join Us.</h1>
                                     </header>
 
-                                    <form class="t13-form-signup-form" action="#">
-                                        <label for="sigUsername"><i class="fa fa-user" aria-hidden="true"></i></label>
-                                        <input type="text" name="Username" id="sigUsername" data-username="" placeholder="Username" autofocus>
+                                    <form class="t13-form-signup-form " action="# ">
+                                        <label for="sigUsername "><i class="fa fa-user " aria-hidden="true "></i></label>
+                                        <input type="text " name="Username " id="sigUsername " data-username=" " placeholder="Username " autofocus>
 
-                                        <label for="sigEmail"><i class="fa fa-envelope" aria-hidden="true"></i></label>
-                                        <input type="email" name="Email" id="sigEmail" data-email="" placeholder="Email" />
+                                        <label for="sigEmail "><i class="fa fa-envelope " aria-hidden="true "></i></label>
+                                        <input type="email " name="Email " id="sigEmail " data-email=" " placeholder="Email " />
 
-                                        <label for="sigPassword"><i class="fa fa-unlock-alt" aria-hidden="true"></i></label>
-                                        <input type="password" name="Password" id="sigPassword" data-password="" placeholder="Password">
+                                        <label for="sigPassword "><i class="fa fa-unlock-alt " aria-hidden="true "></i></label>
+                                        <input type="password " name="Password " id="sigPassword " data-password=" " placeholder="Password ">
 
 
 
-                                        <label for="radio_1" class="t13-forms-lblradio"><input id="radio_1" type="radio" name="radio" checked>
-  <span class="outer"><span class="inner"></span></span>Radio 1</label>
+                                        <label for="radio_1 " class="t13-forms-lblradio "><input id="radio_1 " type="radio " name="radio " checked>
+  <span class="outer "><span class="inner "></span></span>Radio 1</label>
 
-                                        <label for="radio_2" class="t13-forms-lblradio"><input id="radio_2" type="radio" name="radio" checked>
-    <span class="outer"><span class="inner"></span></span>Radio 2</label>
+                                        <label for="radio_2 " class="t13-forms-lblradio "><input id="radio_2 " type="radio " name="radio " checked>
+    <span class="outer "><span class="inner "></span></span>Radio 2</label>
 
-                                        <label for="radio_3" class="t13-forms-lblradio"><input id="radio_3" type="radio" name="radio" checked>
-    <span class="outer"><span class="inner"></span></span>Radio 3</label>
+                                        <label for="radio_3 " class="t13-forms-lblradio "><input id="radio_3 " type="radio " name="radio " checked>
+    <span class="outer "><span class="inner "></span></span>Radio 3</label>
 
-                                        <input id="chb1" class="t13-forms-chbx" type="checkbox" name="checkbox" checked>
-                                        <label for="chb1">Checkbox 1</label>
-                                        <input id="chb2" class="t13-forms-chbx" type="checkbox" name="checkbox" checked>
-                                        <label for="chb2">Checkbox 2</label>
-                                        <input id="chb3" class="t13-forms-chbx" type="checkbox" name="checkbox" checked>
-                                        <label for="chb3">Checkbox 3</label>
-                                        <input id="chb4" class="t13-forms-chbx" type="checkbox" name="checkbox" checked>
-                                        <label for="chb4">Checkbox 4</label>
+                                        <input id="chb1 " class="t13-forms-chbx " type="checkbox " name="checkbox " checked>
+                                        <label for="chb1 ">Checkbox 1</label>
+                                        <input id="chb2 " class="t13-forms-chbx " type="checkbox " name="checkbox " checked>
+                                        <label for="chb2 ">Checkbox 2</label>
+                                        <input id="chb3 " class="t13-forms-chbx " type="checkbox " name="checkbox " checked>
+                                        <label for="chb3 ">Checkbox 3</label>
+                                        <input id="chb4 " class="t13-forms-chbx " type="checkbox " name="checkbox " checked>
+                                        <label for="chb4 ">Checkbox 4</label>
 
-                                        <button class="t13-forms-button t13-forms-button-large t13-forms-button-primary t13-forms-button-hover">Sign Up</button>
+                                        <button class="t13-forms-button t13-forms-button-large t13-forms-button-primary t13-forms-button-hover ">Sign Up</button>
                                     </form>
                                 </div>
 
-                                <div class="t13-code-container" style="margin-top: 3rem;">
-                                    <input type="checkbox" id="#t13-code-13" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-13" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container " style="margin-top: 3rem; ">
+                                    <input type="checkbox " id="#t13-code-13 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-13 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-form-signup t13-form-fluid&quot;&gt;
   &lt;header class=&quot;t13-form-header&quot;&gt;
     &lt;h1 class=&quot;t13-form-signup-title&quot;&gt;Join Us.&lt;/h1&gt;
@@ -788,44 +824,44 @@
 &lt;/div&gt;
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
                             </article>
 
                             <article>
                                 <h2>Submit</h2>
                                 <!--Submit Form-->
-                                <div class="t13-form-submit t13-form-fluid">
-                                    <header class="t13-form-header">
-                                        <h1 class="t13-form-submit-title">Contact Us.</h1>
+                                <div class="t13-form-submit t13-form-fluid ">
+                                    <header class="t13-form-header ">
+                                        <h1 class="t13-form-submit-title ">Contact Us.</h1>
                                     </header>
-                                    <form class="t13-form-submit-form" action="#">
-                                        <div class="t13-form-submit-inp">
+                                    <form class="t13-form-submit-form " action="# ">
+                                        <div class="t13-form-submit-inp ">
 
-                                            <span class="t13-form-submit-inp-container">
-                        <input class="t13-form-fields" type="text" name="Username" id="subUsername" data-username="" autofocus>
-                        <label class="t13-form-lbl" for="subUsername">Name</label>
+                                            <span class="t13-form-submit-inp-container ">
+                        <input class="t13-form-fields " type="text " name="Username " id="subUsername " data-username=" " autofocus>
+                        <label class="t13-form-lbl " for="subUsername ">Name</label>
                       </span>
-                                            <span class="t13-form-submit-inp-container">
-                        <input class="t13-form-fields" type="email" name="Email" id="subEmail" data-email="" />
-                        <label class="t13-form-lbl" for="subEmail">Email</label>
+                                            <span class="t13-form-submit-inp-container ">
+                        <input class="t13-form-fields " type="email " name="Email " id="subEmail " data-email=" " />
+                        <label class="t13-form-lbl " for="subEmail ">Email</label>
                       </span>
 
                                         </div>
-                                        <span class="t13-form-submit-inp-container">
-                      <label class="t13-form-lbl" for="subMessage">Message</label>
-                      <textarea class="t13-form-fields" name="message" id="subMessage" cols="30" rows="10"></textarea>
+                                        <span class="t13-form-submit-inp-container ">
+                      <label class="t13-form-lbl " for="subMessage ">Message</label>
+                      <textarea class="t13-form-fields " name="message " id="subMessage " cols="30 " rows="10 "></textarea>
                     </span>
 
-                                        <button class="t13-forms-button t13-forms-button-large t13-forms-button-primary t13-forms-button-hover">Submit</button>
+                                        <button class="t13-forms-button t13-forms-button-large t13-forms-button-primary t13-forms-button-hover ">Submit</button>
 
                                     </form>
                                 </div>
 
-                                <div class="t13-code-container" style="margin-top: 3rem;">
-                                    <input type="checkbox" id="#t13-code-14" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-14" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container " style="margin-top: 3rem; ">
+                                    <input type="checkbox " id="#t13-code-14 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-14 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-form-submit t13-form-fluid&quot;&gt;
   &lt;header class=&quot;t13-form-header&quot;&gt;
     &lt;h1 class=&quot;t13-form-submit-title&quot;&gt;Contact Us.&lt;/h1&gt;
@@ -854,21 +890,21 @@
 &lt;/div&gt;
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
                             </article>
                         </section>
                     </div>
 
                     <div>
-                        <section class="t13-section__table" id="table">
+                        <section class="t13-section__table " id="table ">
                             <h1>Tables</h1>
                             <p>Hover and click on elements to see the hover and active styles.</p>
                             <article>
                                 <h2>Simple</h2>
                                 <!--Simple Table-->
-                                <div class="t13-table-container" style="overflow-x:auto">
-                                    <table class="t13-table t13-table-simple">
+                                <div class="t13-table-container " style="overflow-x:auto ">
+                                    <table class="t13-table t13-table-simple ">
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
@@ -914,10 +950,10 @@
                                     </table>
                                 </div>
 
-                                <div class="t13-code-container" style="margin-top: 3rem;">
-                                    <input type="checkbox" id="#t13-code-15" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-15" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container " style="margin-top: 3rem; ">
+                                    <input type="checkbox " id="#t13-code-15 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-15 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-table-container&quot; style=&quot;overflow-x:auto&quot;&gt;
   &lt;table class=&quot;t13-table t13-table-simple&quot;&gt;
     &lt;thead&gt;
@@ -966,14 +1002,14 @@
 &lt;/div&gt;
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
                             </article>
                             <article>
                                 <h2>Colored</h2>
                                 <!--Colored Table-->
-                                <div class="t13-table-container" style="overflow-x:auto">
-                                    <table class="t13-table t13-table-colored">
+                                <div class="t13-table-container " style="overflow-x:auto ">
+                                    <table class="t13-table t13-table-colored ">
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
@@ -1019,10 +1055,10 @@
                                     </table>
                                 </div>
 
-                                <div class="t13-code-container" style="margin-top: 3rem;">
-                                    <input type="checkbox" id="#t13-code-16" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-16" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container " style="margin-top: 3rem; ">
+                                    <input type="checkbox " id="#t13-code-16 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-16 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
  &lt;div class=&quot;t13-table-container&quot; style=&quot;overflow-x:auto&quot;&gt;
   &lt;table class=&quot;t13-table t13-table-colored&quot;&gt;
     &lt;thead&gt;
@@ -1071,15 +1107,15 @@
 &lt;/div&gt;
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
 
                             </article>
                             <article>
                                 <h2>Editable</h2>
                                 <!--Editable Table-->
-                                <div class="t13-table-container" style="overflow-x:auto">
-                                    <table class="t13-table t13-table-editable">
+                                <div class="t13-table-container " style="overflow-x:auto ">
+                                    <table class="t13-table t13-table-editable ">
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
@@ -1098,37 +1134,37 @@
                                         </tfoot>
                                         <tbody>
                                             <tr>
-                                                <td contenteditable="true">John Doe</td>
-                                                <td contenteditable="true">System Architect</td>
-                                                <td contenteditable="true">Edingburgh</td>
-                                                <td contenteditable="true">50</td>
+                                                <td contenteditable="true ">John Doe</td>
+                                                <td contenteditable="true ">System Architect</td>
+                                                <td contenteditable="true ">Edingburgh</td>
+                                                <td contenteditable="true ">50</td>
                                             </tr>
                                             <tr>
-                                                <td contenteditable="true">Andrew Ramos</td>
-                                                <td contenteditable="true">Software Engineer</td>
-                                                <td contenteditable="true">London</td>
-                                                <td contenteditable="true">45</td>
+                                                <td contenteditable="true ">Andrew Ramos</td>
+                                                <td contenteditable="true ">Software Engineer</td>
+                                                <td contenteditable="true ">London</td>
+                                                <td contenteditable="true ">45</td>
                                             </tr>
                                             <tr>
-                                                <td contenteditable="true">Bodo Wagner</td>
-                                                <td contenteditable="true">CTO</td>
-                                                <td contenteditable="true">Berlin</td>
-                                                <td contenteditable="true">55</td>
+                                                <td contenteditable="true ">Bodo Wagner</td>
+                                                <td contenteditable="true ">CTO</td>
+                                                <td contenteditable="true ">Berlin</td>
+                                                <td contenteditable="true ">55</td>
                                             </tr>
                                             <tr>
-                                                <td contenteditable="true">Carly Hurst</td>
-                                                <td contenteditable="true">Javascript Developer</td>
-                                                <td contenteditable="true">Berlin</td>
-                                                <td contenteditable="true">30</td>
+                                                <td contenteditable="true ">Carly Hurst</td>
+                                                <td contenteditable="true ">Javascript Developer</td>
+                                                <td contenteditable="true ">Berlin</td>
+                                                <td contenteditable="true ">30</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
 
-                                <div class="t13-code-container" style="margin-top: 3rem;">
-                                    <input type="checkbox" id="#t13-code-17" name="t13-code-chkbx" class="t13-code-chkbx">
-                                    <label for="#t13-code-17" class="t13-code-chkbxlbl">Show Markup</label>
-                                    <pre class="t13-code-container-box">
+                                <div class="t13-code-container " style="margin-top: 3rem; ">
+                                    <input type="checkbox " id="#t13-code-17 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                    <label for="#t13-code-17 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                    <pre class="t13-code-container-box ">
  &lt;div class=&quot;t13-table-container&quot; style=&quot;overflow-x:auto&quot;&gt;
   &lt;table class=&quot;t13-table t13-table-editable&quot;&gt;
     &lt;thead&gt;
@@ -1177,30 +1213,30 @@
 &lt;/div&gt;
                 </pre>
                                 </div>
-                                <!--  <div class="t13-code-container">  -->
+                                <!--  <div class="t13-code-container ">  -->
 
                             </article>
                         </section>
                     </div>
 
                     <div>
-                        <section class="t13-section__lists" id="lists">
+                        <section class="t13-section__lists " id="lists ">
                             <h1>Lists</h1>
                             <p>Hover and click on elements to see the hover and active styles.</p>
                             <article>
                                 <h2>Simple</h2>
-                                <ul class="t13-lists-base">
-                                    <li class="t13-lists-simple-item">Product 1</li>
-                                    <li class="t13-lists-simple-item">Product 2</li>
-                                    <li class="t13-lists-simple-item">Product 3</li>
-                                    <li class="t13-lists-simple-item">Product 4</li>
+                                <ul class="t13-lists-base ">
+                                    <li class="t13-lists-simple-item ">Product 1</li>
+                                    <li class="t13-lists-simple-item ">Product 2</li>
+                                    <li class="t13-lists-simple-item ">Product 3</li>
+                                    <li class="t13-lists-simple-item ">Product 4</li>
                                 </ul>
                             </article>
 
-                            <div class="t13-code-container" style="margin-top: 3rem;">
-                                <input type="checkbox" id="#t13-code-18" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-18" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container " style="margin-top: 3rem; ">
+                                <input type="checkbox " id="#t13-code-18 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-18 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
  &lt;ul class=&quot;t13-lists-base&quot;&gt;
   &lt;li class=&quot;t13-lists-simple-item&quot;&gt;Product 1&lt;/li&gt;
   &lt;li class=&quot;t13-lists-simple-item&quot;&gt;Product 2&lt;/li&gt;
@@ -1209,23 +1245,23 @@
 &lt;/ul&gt;
                 </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
                             <article>
                                 <h2>Colored</h2>
-                                <ul class="t13-lists-base">
-                                    <li class="t13-lists-colored-item">Product 1</li>
-                                    <li class="t13-lists-colored-item">Product 2</li>
-                                    <li class="t13-lists-colored-item">Product 3</li>
-                                    <li class="t13-lists-colored-item">Product 4</li>
+                                <ul class="t13-lists-base ">
+                                    <li class="t13-lists-colored-item ">Product 1</li>
+                                    <li class="t13-lists-colored-item ">Product 2</li>
+                                    <li class="t13-lists-colored-item ">Product 3</li>
+                                    <li class="t13-lists-colored-item ">Product 4</li>
                                 </ul>
                             </article>
 
 
-                            <div class="t13-code-container" style="margin-top: 3rem;">
-                                <input type="checkbox" id="#t13-code-19" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-19" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container " style="margin-top: 3rem; ">
+                                <input type="checkbox " id="#t13-code-19 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-19 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
  &lt;ul class=&quot;t13-lists-base&quot;&gt;
   &lt;li class=&quot;t13-lists-colored-item&quot;&gt;Product 1&lt;/li&gt;
   &lt;li class=&quot;t13-lists-colored-item&quot;&gt;Product 2&lt;/li&gt;
@@ -1234,35 +1270,35 @@
 &lt;/ul&gt;
                 </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
                             <article>
                                 <h2>List with Image</h2>
-                                <ul class="t13-lists-base">
-                                    <li class="t13-lists-image-item t13-lists-image-item-fl-left">
-                                        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="pic">
-                                        <div class="t13-list-image-container-fl-left">
+                                <ul class="t13-lists-base ">
+                                    <li class="t13-lists-image-item t13-lists-image-item-fl-left ">
+                                        <img src="https://randomuser.me/api/portraits/women/12.jpg " alt="pic ">
+                                        <div class="t13-list-image-container-fl-left ">
                                             <h4>Johanna Williams</h4>
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.dolorem dolorem far from the countries Vokalia and Consonantia.dolorem dolorem far from the countries Vokalia and Consonantia.dolorem
                                                 dolorem far from the countries Vokalia and Consonantia.dolorem dolorem </p>
                                         </div>
                                     </li>
-                                    <li class="t13-lists-image-item t13-lists-image-item-fl-right">
-                                        <div class="t13-list-image-container-fl-right">
+                                    <li class="t13-lists-image-item t13-lists-image-item-fl-right ">
+                                        <div class="t13-list-image-container-fl-right ">
                                             <h4>Johanna Williams</h4>
                                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.dolorem dolorem far from the countries Vokalia and Consonantia.dolorem dolorem far from the countries Vokalia and Consonantia.dolorem
                                                 dolorem far from the countries Vokalia and Consonantia.dolorem dolorem </p>
                                         </div>
-                                        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="pic">
+                                        <img src="https://randomuser.me/api/portraits/women/12.jpg " alt="pic ">
                                     </li>
-                                    <li class="t13-lists-image-item"></li>
+                                    <li class="t13-lists-image-item "></li>
                                 </ul>
                             </article>
 
-                            <div class="t13-code-container" style="margin-top: 3rem;">
-                                <input type="checkbox" id="#t13-code-20" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-20" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container " style="margin-top: 3rem; ">
+                                <input type="checkbox " id="#t13-code-20 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-20 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;ul class=&quot;t13-lists-base&quot;&gt;
   &lt;li class=&quot;t13-lists-image-item t13-lists-image-item-fl-left&quot;&gt;
     &lt;img src=&quot;https://randomuser.me/api/portraits/women/12.jpg&quot; alt=&quot;pic&quot;&gt;
@@ -1286,7 +1322,7 @@
 &lt;/ul&gt;
                 </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
                         </section>
                     </div>
@@ -1295,239 +1331,239 @@
 
 
                     <div>
-                        <section class="t13-section__carousel" id="carousel">
+                        <section class="t13-section__carousel " id="carousel ">
                             <h1>Carousel</h1>
                             <p>Image Gallery and Carousel example.</p>
 
                             <article>
                                 <h2>Carousel</h2>
                                 <!--  First Version of Carousel -->
-                                <div class="t13-carousel-simple">
+                                <div class="t13-carousel-simple ">
 
 
 
                                     <ul class="t13-carousel-gallery ">
                                         <li>
-                                            <a href="#img1"><img src="https://unsplash.it/600/400/?random" alt="Picture 1"></a>
-                                            <article class="t13-carousel-gallery-article" id="img1">
+                                            <a href="#img1 "><img src="https://unsplash.it/600/400/?random " alt="Picture 1 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img1 ">
                                                 <figure>
-                                                    <a href="#img2"><img src="https://unsplash.it/600/400/?random" alt="Picture 1"></a>
+                                                    <a href="#img2 "><img src="https://unsplash.it/600/400/?random " alt="Picture 1 "></a>
                                                     <figcaption>Picture 1</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img15">Previous</a>
-                                                    <a class="arrow next" href="#img2">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img15 ">Previous</a>
+                                                    <a class="arrow next " href="#img2 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img2"><img src="https://unsplash.it/600/400/?random" alt="Picture 2"></a>
-                                            <article class="t13-carousel-gallery-article" id="img2">
+                                            <a href="#img2 "><img src="https://unsplash.it/600/400/?random " alt="Picture 2 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img2 ">
                                                 <figure>
-                                                    <a href="#img3"><img src="https://unsplash.it/600/400/?random" alt="Picture 2"></a>
+                                                    <a href="#img3 "><img src="https://unsplash.it/600/400/?random " alt="Picture 2 "></a>
                                                     <figcaption>Picture 2</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img1">Previous</a>
-                                                    <a class="arrow next" href="#img3">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img1 ">Previous</a>
+                                                    <a class="arrow next " href="#img3 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img3"><img src="https://unsplash.it/600/400/?random" alt="Picture 3"></a>
-                                            <article class="t13-carousel-gallery-article" id="img3">
+                                            <a href="#img3 "><img src="https://unsplash.it/600/400/?random " alt="Picture 3 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img3 ">
                                                 <figure>
-                                                    <a href="#img4"><img src="https://unsplash.it/600/400/?random" alt="Picture 3"></a>
+                                                    <a href="#img4 "><img src="https://unsplash.it/600/400/?random " alt="Picture 3 "></a>
                                                     <figcaption>Picture 3</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img2">Previous</a>
-                                                    <a class="arrow next" href="#img4">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img2 ">Previous</a>
+                                                    <a class="arrow next " href="#img4 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img4"><img src="https://unsplash.it/600/400/?random" alt="Picture 4"></a>
-                                            <article class="t13-carousel-gallery-article" id="img4">
+                                            <a href="#img4 "><img src="https://unsplash.it/600/400/?random " alt="Picture 4 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img4 ">
                                                 <figure>
-                                                    <a href="#img5"><img src="https://unsplash.it/600/400/?random" alt="Picture 4"></a>
+                                                    <a href="#img5 "><img src="https://unsplash.it/600/400/?random " alt="Picture 4 "></a>
                                                     <figcaption>Picture 4</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img3">Previous</a>
-                                                    <a class="arrow next" href="#img5">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img3 ">Previous</a>
+                                                    <a class="arrow next " href="#img5 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img5"><img src="https://unsplash.it/600/400/?random" alt="Picture 5"></a>
-                                            <article class="t13-carousel-gallery-article" id="img5">
+                                            <a href="#img5 "><img src="https://unsplash.it/600/400/?random " alt="Picture 5 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img5 ">
                                                 <figure>
-                                                    <a href="#img6"><img src="https://unsplash.it/600/400/?random" alt="Picture 5"></a>
+                                                    <a href="#img6 "><img src="https://unsplash.it/600/400/?random " alt="Picture 5 "></a>
                                                     <figcaption>Picture 5</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img4">Previous</a>
-                                                    <a class="arrow next" href="#img6">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img4 ">Previous</a>
+                                                    <a class="arrow next " href="#img6 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img6"><img src="https://unsplash.it/600/400/?random" alt="Picture 6"></a>
-                                            <article class="t13-carousel-gallery-article" id="img6">
+                                            <a href="#img6 "><img src="https://unsplash.it/600/400/?random " alt="Picture 6 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img6 ">
                                                 <figure>
-                                                    <a href="#img7"><img src="https://unsplash.it/600/400/?random" alt="Picture 6"></a>
+                                                    <a href="#img7 "><img src="https://unsplash.it/600/400/?random " alt="Picture 6 "></a>
                                                     <figcaption>Picture 6</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img5">Previous</a>
-                                                    <a class="arrow next" href="#img7">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img5 ">Previous</a>
+                                                    <a class="arrow next " href="#img7 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img7"><img src="https://unsplash.it/600/400/?random" alt="Picture 7"></a>
-                                            <article class="t13-carousel-gallery-article" id="img7">
+                                            <a href="#img7 "><img src="https://unsplash.it/600/400/?random " alt="Picture 7 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img7 ">
                                                 <figure>
-                                                    <a href="#img8"><img src="https://unsplash.it/600/400/?random" alt="Picture 7"></a>
+                                                    <a href="#img8 "><img src="https://unsplash.it/600/400/?random " alt="Picture 7 "></a>
                                                     <figcaption>Picture 7</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img6">Previous</a>
-                                                    <a class="arrow next" href="#img8">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img6 ">Previous</a>
+                                                    <a class="arrow next " href="#img8 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img8"><img src="https://unsplash.it/600/400/?random" alt="Picture 8"></a>
-                                            <article class="t13-carousel-gallery-article" id="img8">
+                                            <a href="#img8 "><img src="https://unsplash.it/600/400/?random " alt="Picture 8 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img8 ">
                                                 <figure>
-                                                    <a href="#img9"><img src="https://unsplash.it/600/400/?random" alt="Picture 8"></a>
+                                                    <a href="#img9 "><img src="https://unsplash.it/600/400/?random " alt="Picture 8 "></a>
                                                     <figcaption>Picture 8</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img7">Previous</a>
-                                                    <a class="arrow next" href="#img9">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img7 ">Previous</a>
+                                                    <a class="arrow next " href="#img9 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img9"><img src="https://unsplash.it/600/400/?random" alt="Picture 9"></a>
-                                            <article class="t13-carousel-gallery-article" id="img9">
+                                            <a href="#img9 "><img src="https://unsplash.it/600/400/?random " alt="Picture 9 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img9 ">
                                                 <figure>
-                                                    <a href="#img10"><img src="https://unsplash.it/600/400/?random" alt="Picture 9"></a>
+                                                    <a href="#img10 "><img src="https://unsplash.it/600/400/?random " alt="Picture 9 "></a>
                                                     <figcaption>Picture 9</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img8">Previous</a>
-                                                    <a class="arrow next" href="#img10">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img8 ">Previous</a>
+                                                    <a class="arrow next " href="#img10 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img10"><img src="https://unsplash.it/600/400/?random" alt="Picture 10"></a>
-                                            <article class="t13-carousel-gallery-article" id="img10">
+                                            <a href="#img10 "><img src="https://unsplash.it/600/400/?random " alt="Picture 10 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img10 ">
                                                 <figure>
-                                                    <a href="#img11"><img src="https://unsplash.it/600/400/?random" alt="Picture 10"></a>
+                                                    <a href="#img11 "><img src="https://unsplash.it/600/400/?random " alt="Picture 10 "></a>
                                                     <figcaption>Picture 10</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img9">Previous</a>
-                                                    <a class="arrow next" href="#img11">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img9 ">Previous</a>
+                                                    <a class="arrow next " href="#img11 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img11"><img src="https://unsplash.it/600/400/?random" alt="Picture 11"></a>
-                                            <article class="t13-carousel-gallery-article" id="img11">
+                                            <a href="#img11 "><img src="https://unsplash.it/600/400/?random " alt="Picture 11 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img11 ">
                                                 <figure>
-                                                    <a href="#img12"><img src="https://unsplash.it/600/400/?random" alt="Picture 11"></a>
+                                                    <a href="#img12 "><img src="https://unsplash.it/600/400/?random " alt="Picture 11 "></a>
                                                     <figcaption>Picture 11</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img10">Previous</a>
-                                                    <a class="arrow next" href="#img12">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img10 ">Previous</a>
+                                                    <a class="arrow next " href="#img12 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img12"><img src="https://unsplash.it/600/400/?random" alt="Picture 12"></a>
-                                            <article class="t13-carousel-gallery-article" id="img12">
+                                            <a href="#img12 "><img src="https://unsplash.it/600/400/?random " alt="Picture 12 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img12 ">
                                                 <figure>
-                                                    <a href="#img13"><img src="https://unsplash.it/600/400/?random" alt="Picture 12"></a>
+                                                    <a href="#img13 "><img src="https://unsplash.it/600/400/?random " alt="Picture 12 "></a>
                                                     <figcaption>Picture 12</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img11">Previous</a>
-                                                    <a class="arrow next" href="#img13">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img11 ">Previous</a>
+                                                    <a class="arrow next " href="#img13 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img13"><img src="https://unsplash.it/600/400/?random" alt="Picture 13"></a>
-                                            <article class="t13-carousel-gallery-article" id="img13">
+                                            <a href="#img13 "><img src="https://unsplash.it/600/400/?random " alt="Picture 13 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img13 ">
                                                 <figure>
-                                                    <a href="#img14"><img src="https://unsplash.it/600/400/?random" alt="Picture 13"></a>
+                                                    <a href="#img14 "><img src="https://unsplash.it/600/400/?random " alt="Picture 13 "></a>
                                                     <figcaption>Picture 13</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img12">Previous</a>
-                                                    <a class="arrow next" href="#img14">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img12 ">Previous</a>
+                                                    <a class="arrow next " href="#img14 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img14"><img src="https://unsplash.it/600/400/?random" alt="Picture 14"></a>
-                                            <article class="t13-carousel-gallery-article" id="img14">
+                                            <a href="#img14 "><img src="https://unsplash.it/600/400/?random " alt="Picture 14 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img14 ">
                                                 <figure>
-                                                    <a href="#img15"><img src="https://unsplash.it/600/400/?random" alt="Picture 14"></a>
+                                                    <a href="#img15 "><img src="https://unsplash.it/600/400/?random " alt="Picture 14 "></a>
                                                     <figcaption>Picture 14</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img13">Previous</a>
-                                                    <a class="arrow next" href="#img15">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img13 ">Previous</a>
+                                                    <a class="arrow next " href="#img15 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
 
                                         <li>
-                                            <a href="#img15"><img src="https://unsplash.it/600/400/?random" alt="Picture 15"></a>
-                                            <article class="t13-carousel-gallery-article" id="img15">
+                                            <a href="#img15 "><img src="https://unsplash.it/600/400/?random " alt="Picture 15 "></a>
+                                            <article class="t13-carousel-gallery-article " id="img15 ">
                                                 <figure>
-                                                    <a href="#img1"><img src="https://unsplash.it/600/400/?random" alt="Picture 15"></a>
+                                                    <a href="#img1 "><img src="https://unsplash.it/600/400/?random " alt="Picture 15 "></a>
                                                     <figcaption>Picture 54</figcaption>
                                                 </figure>
                                                 <nav>
-                                                    <a class="close" href="#close">Close</a>
-                                                    <a class="arrow prev" href="#img14">Previous</a>
-                                                    <a class="arrow next" href="#img1">Next</a>
+                                                    <a class="close " href="#close ">Close</a>
+                                                    <a class="arrow prev " href="#img14 ">Previous</a>
+                                                    <a class="arrow next " href="#img1 ">Next</a>
                                                 </nav>
                                             </article>
                                         </li>
@@ -1540,29 +1576,29 @@
                                 <p>Image Gallery and Carousel example.</p>
 
                                 <!--  Second Version of Gallery -->
-                                <div class="t13-carousel-flow">
+                                <div class="t13-carousel-flow ">
 
                                     <ul class="t13-carousel-flow-list ">
 
-                                        <input class="t13-carousel-flow-inp" type="checkbox" name="flow-item" id="flow-pic1" />
-                                        <li class="t13-carousel-flow-item">
-                                            <label class="t13-carousel-flow-lbl" for="flow-pic1">
-                      <figure class="t13-flow-item-fig">
-                        <img src="https://unsplash.it/600/400/?random" alt="Picture 1">
-                        <figcaption class="t13-flow-item-figcap">Text 1</figcaption>
-                        <p class="t13-flow-item-figcap-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore soluta nihil quae, repudiandae in nisi quos aperiam animi. Recusandae assumenda inventore commodi dicta cum accusantium adipisci eveniet quo soluta repudiandae.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum obcaecati assumenda cupiditate, sunt eius et, nesciunt ex culpa accusamus suscipit deleniti nostrum alias repudiandae illum ipsam ratione. Velit odio, eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quod necessitatibus totam quae, harum non reiciendis aliquid libero explicabo aspernatur sint reprehenderit maxime repellat ratione mollitia facilis, ducimus modi distinctio? </p>
+                                        <input class="t13-carousel-flow-inp " type="checkbox " name="flow-item " id="flow-pic1 " />
+                                        <li class="t13-carousel-flow-item ">
+                                            <label class="t13-carousel-flow-lbl " for="flow-pic1 ">
+                      <figure class="t13-flow-item-fig ">
+                        <img src="https://unsplash.it/600/400/?random " alt="Picture 1 ">
+                        <figcaption class="t13-flow-item-figcap ">Text 1</figcaption>
+                        <p class="t13-flow-item-figcap-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore soluta nihil quae, repudiandae in nisi quos aperiam animi. Recusandae assumenda inventore commodi dicta cum accusantium adipisci eveniet quo soluta repudiandae.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum obcaecati assumenda cupiditate, sunt eius et, nesciunt ex culpa accusamus suscipit deleniti nostrum alias repudiandae illum ipsam ratione. Velit odio, eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quod necessitatibus totam quae, harum non reiciendis aliquid libero explicabo aspernatur sint reprehenderit maxime repellat ratione mollitia facilis, ducimus modi distinctio? </p>
                       </figure>
                       </label>
                                         </li>
 
 
-                                        <input class="t13-carousel-flow-inp" type="checkbox" name="flow-item" id="flow-pic2" />
-                                        <li class="t13-carousel-flow-item">
-                                            <label class="t13-carousel-flow-lbl" for="flow-pic2">
-                      <figure class="t13-flow-item-fig">
-                        <img src="https://unsplash.it/600/400/?random" alt="Picture 1">
-                        <figcaption class="t13-flow-item-figcap">Text 2</figcaption>
-                        <p class="t13-flow-item-figcap-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore soluta nihil quae, repudiandae in nisi quos aperiam animi. Recusandae assumenda inventore commodi dicta cum accusantium adipisci eveniet quo soluta repudiandae.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum obcaecati assumenda cupiditate, sunt eius et, nesciunt ex culpa accusamus suscipit deleniti nostrum alias repudiandae illum ipsam ratione. Velit odio, eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quod necessitatibus totam quae, harum non reiciendis aliquid libero explicabo aspernatur sint reprehenderit maxime repellat ratione mollitia facilis, ducimus modi distinctio? </p>
+                                        <input class="t13-carousel-flow-inp " type="checkbox " name="flow-item " id="flow-pic2 " />
+                                        <li class="t13-carousel-flow-item ">
+                                            <label class="t13-carousel-flow-lbl " for="flow-pic2 ">
+                      <figure class="t13-flow-item-fig ">
+                        <img src="https://unsplash.it/600/400/?random " alt="Picture 1 ">
+                        <figcaption class="t13-flow-item-figcap ">Text 2</figcaption>
+                        <p class="t13-flow-item-figcap-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore soluta nihil quae, repudiandae in nisi quos aperiam animi. Recusandae assumenda inventore commodi dicta cum accusantium adipisci eveniet quo soluta repudiandae.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum obcaecati assumenda cupiditate, sunt eius et, nesciunt ex culpa accusamus suscipit deleniti nostrum alias repudiandae illum ipsam ratione. Velit odio, eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quod necessitatibus totam quae, harum non reiciendis aliquid libero explicabo aspernatur sint reprehenderit maxime repellat ratione mollitia facilis, ducimus modi distinctio? </p>
                       </figure>
                       </label>
                                         </li>
@@ -1582,31 +1618,31 @@
 
                     <!--SECTION FOR MODAL-->
                     <div>
-                        <section class="t13-section__modal" id="t13-modal">
+                        <section class="t13-section__modal " id="t13-modal ">
                             <h1>Modals</h1>
                             <p>This model was built entirely using CSS without any JavaScript.</p>
 
                             <article>
-                                <a class="t13-button" href="#t13-modal-box-1">Launch Modal</a>
+                                <a class="t13-button " href="#t13-modal-box-1 ">Launch Modal</a>
 
-                                <div class="t13-modal-box" id="t13-modal-box-1">
+                                <div class="t13-modal-box " id="t13-modal-box-1 ">
                                     <div>
-                                        <a href="#close" title="close" class="t13-modal-box__close">X</a>
+                                        <a href="#close " title="close " class="t13-modal-box__close ">X</a>
                                         <h2>America's Top Modal</h2>
                                         <p>Why male modals?</p>
                                         <p>No, seriously! Why male modals!?</p>
 
-                                        <iframe width="640" height="360" src="https://www.youtube.com/embed/WHrn_pHW2so" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="640 " height="360 " src="https://www.youtube.com/embed/WHrn_pHW2so " frameborder="0 " allowfullscreen></iframe>
 
 
                                     </div>
                                 </div>
                             </article>
 
-                            <div class="t13-code-container" style="margin-top: 3rem;">
-                                <input type="checkbox" id="#t13-code-21" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-21" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container " style="margin-top: 3rem; ">
+                                <input type="checkbox " id="#t13-code-21 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-21 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;div class=&quot;t13-modal-box&quot; id=&quot;t13-modal-box-1&quot;&gt;
   &lt;div&gt;
       &lt;a href=&quot;#close&quot; title=&quot;close&quot; class=&quot;t13-modal-box__close&quot;&gt;X&lt;/a&gt;
@@ -1621,7 +1657,7 @@
 &lt;/div&gt;
                 </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
                         </section>
                     </div>
@@ -1629,9 +1665,9 @@
 
                     <div>
                         <!--SECTION FOR Text2Speech-->
-                        <section class="t13-section__text2speech" id="text2speech">
+                        <section class="t13-section__text2speech " id="text2speech ">
                             <h1>Text to Speech</h1>
-                            <p> Mark the text you want to get read. Press <span class="t13-span"> Shift+b </span > to get started and <span class="t13-span">  Shift+v </span> to cancel</p>
+                            <p> Mark the text you want to get read. Press <span class="t13-span "> Shift+b </span > to get started and <span class="t13-span ">  Shift+v </span> to cancel</p>
                             <h4>Text from Medium</h4>
                             <article>
                                 A Study Plan To Cure JavaScript Fatigue Like everybody else, I recently came across Jose Aguinaga’s post “How it feels to learn JavaScript in 2016”. It’s clear that this post hit a nerve: I saw it reaching the top spot on Hacker News not once but twice.
@@ -1642,14 +1678,14 @@
                                 used front-end libraries such as jQuery for a few simple hacks. You now want to get into more serious front-end development but are drowning in frameworks and libraries before you’ve even started.
                             </article>
 
-                            <div class="t13-code-container" style="margin: 3rem 0 3rem 0;">
-                                <input type="checkbox" id="#t13-code-22" name="t13-code-chkbx" class="t13-code-chkbx">
-                                <label for="#t13-code-22" class="t13-code-chkbxlbl">Show Markup</label>
-                                <pre class="t13-code-container-box">
+                            <div class="t13-code-container " style="margin: 3rem 0 3rem 0; ">
+                                <input type="checkbox " id="#t13-code-22 " name="t13-code-chkbx " class="t13-code-chkbx ">
+                                <label for="#t13-code-22 " class="t13-code-chkbxlbl ">Show Markup</label>
+                                <pre class="t13-code-container-box ">
 &lt;script src=&quot;src/scripts/speech.js&quot; defer=&quot;defer&quot;&gt;&lt;/script&gt;
                 </pre>
                             </div>
-                            <!--  <div class="t13-code-container">  -->
+                            <!--  <div class="t13-code-container ">  -->
 
                         </section>
                     </div>
@@ -1684,8 +1720,8 @@
             </div>
         </div>
     </div>
-    <script src="src/scripts/speech.js" defer="defer"></script>
-    <script src="src/scripts/main.js" defer="defer"></script>
+    <script src="src/scripts/speech.js " defer="defer "></script>
+    <script src="src/scripts/main.js " defer="defer "></script>
 </body>
 
 </html>
