@@ -54,7 +54,10 @@
 .t13-modal-box__close:hover {
     background-color: var(--button-hover);
     color: #fff;
-<<<<<<< HEAD
+}
+
+.t13-modal-box > div iframe {
+  width: 100%;
 }
 
 
@@ -75,12 +78,4 @@
     padding-bottom: 30%;
     max-width: 800px;
   }
-
-  .t13-modal-box > div iframe {
-    width: 100%;
-    height: 100%;
-  }
 }
-=======
-}
->>>>>>> f1056c6087f4c2107181592b5c49ad905a1ed52f
