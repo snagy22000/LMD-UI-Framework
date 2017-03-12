@@ -20,7 +20,7 @@
 /************ Base Styles ************/
 
 html {
-  font-size: 62.5%; //is a 10px base font
+  font-size: 62.5%;
 }
 
 body {
@@ -38,6 +38,11 @@ header {
 
 article {
   margin: 3em 0;
+}
+
+blockquote {
+  background-color: var(--soft-secondary-color);
+  border-left: 3px solid var(--soft-primary-color);
 }
 
 
