@@ -9,7 +9,7 @@ header.top-header {
 	align-items : center;
 	background-color : var(--header-background-color);
 	display : flex;
-	padding : 40px 0;
+	padding : 40px;
 }
 
 header.top-header img {
