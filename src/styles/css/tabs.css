@@ -31,6 +31,7 @@
 
 .t13-hz-tab:nth-child(1) label {
 	background-color : var(--primary-color);
+	top : -38px;
 }
 
 .t13-hz-tab:nth-child(2) label {
