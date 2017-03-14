@@ -1,53 +1,56 @@
+
+/********************************/
+/**** NAV SETUP********/
+/*******************************/
+
 /* CSS for <nav> */
 
-
 nav h1 {
-  color: var(--secondary-color);
+	color : var(--secondary-color);
 }
 
 nav a {
-  color: var(--nav-text-color);
+	color : var(--nav-text-color);
 }
 
 nav ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-top: 50px;
+	align-items : flex-end;
+	display : flex;
+	flex-direction : column;
+	margin-top : 50px;
 }
 
 nav li {
-  font-size: 1.2em;
-  font-weight: 900;
-  margin: .2em 0;
-  padding: .5em;
-  padding-right: 2em;
-  transition: all 200ms;
-  border-right: 4px solid transparent; 
+	border-right : 4px solid transparent;
+	font-size : 1.2em;
+	font-weight : 900;
+	margin : .2em 0;
+	padding : .5em;
+	padding-right : 2em;
+	transition : all 200ms;
 }
 
 nav li:hover {
-  border-right: 4px solid var(--primary-color);
+	border-right : 4px solid var(--primary-color);
 }
 
 nav li:first-child {
-  border: none;
-  font-size: 1.5em;
+	border : none;
+	font-size : 1.5em;
 }
 
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
+	nav li:hover {
+		border : none;
+		border-bottom : 4px solid var(--primary-color);
+	}
 
-  nav li:hover {
-    border: none;
-    border-bottom: 4px solid var(--primary-color);
-  }
+	nav li:first-child {
+		border : none;
+	}
 
-  nav li:first-child {
-    border: none;
-  }
-
-  nav ul {
-    align-items: flex-start;
-  }
+	nav ul {
+		align-items : flex-start;
+	}
 }

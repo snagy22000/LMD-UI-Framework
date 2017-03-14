@@ -5,17 +5,15 @@
 
 /*CSS for fluid Layout*/
 .t13-form-fluid {
-  width: 100% !important;
-  height: 100%;
-  max-width: 900px;
-  box-shadow: 0 2px 2px 0px #dadad0;
+	box-shadow : 0 2px 2px 0 #dadad0;
+	height : 100%;
+	max-width : 900px;
+	width : 100% !important;
 }
 
 .t13-form-header {
-  background: transparent;
+	background : transparent;
 }
-
-
 
 /********************************/
 /**** SIGNUP FORMS SETUP********/
@@ -24,176 +22,164 @@
 
 /*With fixed Size : width: 346px  */
 .t13-form-signup {
-  border: 2px solid var(--faint-primary-color);
-  border-radius: 5px;
-  padding: 20px 35px;
-  width: 346px;
+	border : 2px solid var(--faint-primary-color);
+	border-radius : 5px;
+	padding : 20px 35px;
+	width : 346px;
 }
 
-
-
-
 .t13-form-signup .t13-form-signup-title {
-  color: var(--soft-primary-color);
-  font-size: 4.5rem;
-  font-weight: 700;
-  margin: 15px 0 25px 0;
+	color : var(--soft-primary-color);
+	font-size : 4.5rem;
+	font-weight : 700;
+	margin : 15px 0 25px 0;
 }
 
 .t13-form-signup-form {
-  position: relative;
+	position : relative;
 }
-
 
 /****INPUT FIELDS SETUP********/
 
-
 input {
-  cursor: pointer;
+	cursor : pointer;
 }
 
-
-.t13-form-signup-form  label[for*="sig"] > .fa{
-  border-radius: 5px 0 0 5px;
-  color: var(--title-color);
-  position: absolute;
-  margin-top: 21px;
-  margin-left: 0;
-  background: var(--soft-primary-color);
-  padding: 12px 16px;
+.t13-form-signup-form  label[for*='sig'] > .fa {
+	background : var(--soft-primary-color);
+	border-radius : 5px 0 0 5px;
+	color : var(--title-color);
+	margin-left : 0;
+	margin-top : 21px;
+	padding : 12px 16px;
+	position : absolute;
 }
 
 .fa-envelope {
-  padding-left: 13px;
+	padding-left : 13px;
 }
 
-
-
 .t13-form-signup-form > input {
- border: 1px solid var(--soft-primary-color);
-    border-radius: 5px 0 0 5px;
-    color: var(--soft-secondary-color);
-    width: 80%;
-    padding: 9px 0px 10px 55px;
-    margin: 20px 0;
+	border : 1px solid var(--soft-primary-color);
+	border-radius : 5px 0 0 5px;
+	color : var(--soft-secondary-color);
+	margin : 20px 0;
+	padding : 9px 0 10px 55px;
+	width : 80%;
 }
 
 .t13-form-signup-form > label:last-of-type {
-  margin-bottom: 60px;
+	margin-bottom : 60px;
 }
 
 .t13-form-signup-form > label {
-  display: block;
+	display : block;
 }
-
 
 /****RADIO AND CHECKBOX SETUP********/
 
-
 label.t13-forms-lblradio {
-  color: var(--primary-color);
-  font-weight: bold;
-  font-size: 1.6rem;
-  line-height: 50px;
-  cursor: pointer;
+	color : var(--primary-color);
+	cursor : pointer;
+	font-size : 1.6rem;
+	font-weight : bold;
+	line-height : 50px;
 }
 
-.t13-forms-lblradio input[type="radio"] {
-  height: 1px;
-  padding: 0;
-  opacity: 0;
-  width: 1px;
+.t13-forms-lblradio input[type='radio'] {
+	height : 1px;
+	opacity : 0;
+	padding : 0;
+	width : 1px;
 }
 
 .t13-forms-lblradio .outer {
-  height: 20px;
-  width: 20px;
-  display: block;
-  float: left;
-  margin: 10px 9px 10px 10px;
-  border: 1px solid var(--primary-color);
-  border-radius: 50%;
-  background-color: var(--title-color);
-  transition: all 900ms;
+	background-color : var(--title-color);
+	border : 1px solid var(--primary-color);
+	border-radius : 50%;
+	display : block;
+	float : left;
+	height : 20px;
+	margin : 10px 9px 10px 10px;
+	transition : all 900ms;
+	width : 20px;
 }
 
-.t13-forms-lblradio input[type="radio"]:checked + .outer {
-  background: var(--faint-primary-color);
-  box-shadow: inset 0 0 0 2px rgb(255, 255, 255);
+.t13-forms-lblradio input[type='radio']:checked + .outer {
+	background : var(--faint-primary-color);
+	box-shadow : inset 0 0 0 2px rgb(255, 255, 255);
 }
 
-input.t13-forms-chbx[type="checkbox"] {
-  height: 1px;
-  padding: 0;
-  opacity: 0;
-  width: 1px;
+input.t13-forms-chbx[type='checkbox'] {
+	height : 1px;
+	opacity : 0;
+	padding : 0;
+	width : 1px;
 }
 
-input.t13-forms-chbx[type="checkbox"] + label {
-  color: var(--primary-color);
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 1.6rem;
+input.t13-forms-chbx[type='checkbox'] + label {
+	color : var(--primary-color);
+	cursor : pointer;
+	font-size : 1.6rem;
+	font-weight : bold;
 }
 
-input.t13-forms-chbx[type="checkbox"] + label:before {
-  content: "////";
-  margin-right: 18px;
-  font-size: 17px;
-  font-family: 'FontAwesome';
-  min-width: 20px;
-  min-height: 20px;
-  border: 1px solid var(--faint-primary-color);
-  color: transparent;
-  margin-left: 9px;
-  transition: all 500ms;
+input.t13-forms-chbx[type='checkbox'] + label:before {
+	border : 1px solid var(--faint-primary-color);
+	color : transparent;
+	content : '////';
+	font-family : 'FontAwesome';
+	font-size : 17px;
+	margin-left : 9px;
+	margin-right : 18px;
+	min-height : 20px;
+	min-width : 20px;
+	transition : all 500ms;
 }
 
-input.t13-forms-chbx[type="checkbox"]:checked + label:before {
-  content: "\f00c";
-  font-family: 'FontAwesome';
-  color: var(--faint-primary-color);
+input.t13-forms-chbx[type='checkbox']:checked + label:before {
+	color : var(--faint-primary-color);
+	content : '\f00c';
+	font-family : 'FontAwesome';
 }
 
 /* Button Setup*/
 .t13-forms-button {
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding: 13px 20px;
-  font-weight: bold;
-  transition: background 500ms, color 300ms;
+	border-radius : 4px;
+	cursor : pointer;
+	font-weight : bold;
+	margin-bottom : 15px;
+	margin-top : 10px;
+	padding : 13px 20px;
+	transition : background 500ms, color 300ms;
 }
 
 .t13-forms-button-large {
-  display: block;
-  width: 100%;
+	display : block;
+	width : 100%;
 }
 
 .t13-forms-button-hover:hover {
-  color: var(--title-color);
-  background: var(--soft-primary-color);
-
+	background : var(--soft-primary-color);
+	color : var(--title-color);
 }
 
 .t13-forms-button-primary {
-  color: var(--soft-primary-color);
-  background: var(--title-color);
-  border: 2px solid var(--soft-primary-color);
+	background : var(--title-color);
+	border : 2px solid var(--soft-primary-color);
+	color : var(--soft-primary-color);
 }
 
 .t13-forms-button-gray {
-  color: var(--soft-secondary-color);
-  background: var(--title-color);
-  border: 2px solid var(--soft-secondary-color);
+	background : var(--title-color);
+	border : 2px solid var(--soft-secondary-color);
+	color : var(--soft-secondary-color);
 }
 
 .t13-forms-button-gray-hover:hover {
-  color: var(--title-color);
-  background: var(--faint-secondary-color);
+	background : var(--faint-secondary-color);
+	color : var(--title-color);
 }
-
 
 /********************************/
 /**** CONTACT FORMS SETUP********/
@@ -201,87 +187,88 @@ input.t13-forms-chbx[type="checkbox"]:checked + label:before {
 
 /*With fixed Size : width: 346px  */
 .t13-form-submit {
-  background: var(--primary-color);
-  border: 2px solid var(--faint-primary-color);
-  border-radius: 5px;
-  padding: 20px 35px;
-  width: 346px;
+	background : var(--primary-color);
+	border : 2px solid var(--faint-primary-color);
+	border-radius : 5px;
+	padding : 20px 35px;
+	width : 346px;
 }
 
 .t13-form-submit .t13-form-submit-title {
-  color: var(--title-color);
-  font-size: 4.5rem;
-  font-weight: 700;
-  margin: 30px 0 70px 0;
+	color : var(--title-color);
+	font-size : 4.5rem;
+	font-weight : 700;
+	margin : 30px 0 70px 0;
 }
 
 .t13-form-submit-form {
-  display: flex;
-  flex-direction: column;
+	display : flex;
+	flex-direction : column;
 }
 
 .t13-form-submit-inp {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: relative;
+	display : flex;
+	flex-direction : row;
+	position : relative;
+
+	justify-content : space-between;
 }
 
 /************** INPUT AREA*********/
 
 .t13-form-submit-inp-container {
-  position: relative;
-  width: 100%;
+	position : relative;
+	width : 100%;
 }
 
 .t13-form-submit-inp-container:first-child {
-  margin-right: 20px;
+	margin-right : 20px;
 }
 
-input.t13-form-fields[id*="sub"],
+input.t13-form-fields[id*='sub'],
 textarea.t13-form-fields {
-  color: var(--soft-secondary-color);
-  background: var(--faint-primary-color);
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 5px;  
-  margin: 30px 0;
-  position: relative;
-  padding: 10px 0;
-  width: 100%;
+	background : var(--faint-primary-color);
+	border : 1px solid rgb(255, 255, 255);
+	border-radius : 5px;
+	color : var(--soft-secondary-color);
+	margin : 30px 0;
+	padding : 10px 0;
+	position : relative;
+	width : 100%;
 }
 
-input.t13-form-fields[id*="sub"]:first-child {
-  margin-right: 15px;
+input.t13-form-fields[id*='sub']:first-child {
+	margin-right : 15px;
 }
 
-label.t13-form-lbl[for*="sub"] {
-  color: var(--title-color);
-  font-size: 1.6rem;
-  top: 0;
-  position: absolute; 
+label.t13-form-lbl[for*='sub'] {
+	color : var(--title-color);
+	font-size : 1.6rem;
+	position : absolute;
+	top : 0;
 }
 
-label.t13-form-lbl[for*="sub"]:before{
-  font-family: 'FontAwesome';
-  margin-right: 10px;
+label.t13-form-lbl[for*='sub']:before {
+	font-family : 'FontAwesome';
+	margin-right : 10px;
 }
 
-label.t13-form-lbl[for="subUsername"]:before{
-  content: "\f007";
+label.t13-form-lbl[for='subUsername']:before {
+	content : '\f007';
 }
 
-label.t13-form-lbl[for="subEmail"]:before{
-  content:  "\f0e0";
+label.t13-form-lbl[for='subEmail']:before {
+	content : '\f0e0';
 }
 
-label.t13-form-lbl[for="subMessage"]:before{
-  content:  "\f040";
+label.t13-form-lbl[for='subMessage']:before {
+	content : '\f040';
 }
 
 /*********** MEDIA QUERIES  **************************/
 
 @media screen and (max-width: 621px) {
-  .t13-form-submit-inp {
-    flex-direction: column;
-  }
+	.t13-form-submit-inp {
+		flex-direction : column;
+	}
 }

@@ -1,22 +1,27 @@
+
+/********************************/
+/**** HEADER SETUP********/
+/*******************************/
+
 /* CSS for the <header> */
 
 header.top-header {
-  background-color: var(--header-background-color);
-  padding: 40px 0;
-  display: flex;
-  align-items: center;
+	align-items : center;
+	background-color : var(--header-background-color);
+	display : flex;
+	padding : 40px 0;
 }
 
 header.top-header img {
-  width: 100px;
-  height: 100px;
+	height : 100px;
+	width : 100px;
 }
 
 header.top-header h1 {
-  font-size: 2em;
-  color: var(--secondary-color);
+	color : var(--secondary-color);
+	font-size : 2em;
 }
 
 header.top-header span {
-  color: var(--primary-color); 
+	color : var(--primary-color);
 }

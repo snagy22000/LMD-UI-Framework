@@ -6,6 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.18.8",
+    "csscomb": "^4.0.1",
     "htmlhint": "^0.9.13"
   },
   "scripts": {

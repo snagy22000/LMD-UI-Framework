@@ -1,11 +1,18 @@
-::selection { 
-  background: var(--soft-primary-color);
-  color: #fff;
+
+/********************************/
+/**** TEXT2SPEECH SETUP********/
+/*******************************/
+
+/* Base Setup*/
+
+::selection {
+	background : var(--soft-primary-color);
+	color : #ffffff;
 }
 
 span.t13-span {
-  border: 2px solid #93ddf5;    
-  border-radius: 5px;
-  margin: 5px;
-  padding: 3px;
+	border : 2px solid #93ddf5;
+	border-radius : 5px;
+	margin : 5px;
+	padding : 3px;
 }

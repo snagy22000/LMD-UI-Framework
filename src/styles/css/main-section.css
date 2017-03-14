@@ -1,42 +1,45 @@
+
+/********************************/
+/**** MAIN SETUP********/
+/*******************************/
+
 /* CSS for  <main> */
 
-
 main {
-  background-color: white;
-  margin-top: 50px;
+	background-color : var(--title-color);
+	margin-top : 50px;
 }
 
 section {
-  border-top: 5px solid var(--faint-secondary-color);
+	border-top : 5px solid var(--faint-secondary-color);
 }
 
 main section {
-  padding-top: 70px;
+	padding-top : 70px;
 }
 
-main>div {
-  border: 1px solid transparent;
-  padding: 100px;
-  padding-bottom: 0;
+main > div {
+	border : 1px solid transparent;
+	padding : 100px;
+	padding-bottom : 0;
 }
 
 /* adding for first section item */
 #typography {
-  padding-top: 0;
-  border: none;
+	border : none;
+	padding-top : 0;
 }
 
 /* For devices smaller than 900px */
 @media (max-width: 900px) {
-  main>div {
-    padding-left: 30px;
-  }
+	main > div {
+		padding-left : 30px;
+	}
 }
-
 
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
-  main>div {
-    padding-top: 30px;
-  }
+	main > div {
+		padding-top : 30px;
+	}
 }

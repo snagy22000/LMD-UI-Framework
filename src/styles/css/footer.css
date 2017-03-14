@@ -1,21 +1,27 @@
+
+/********************************/
+/**** FOOTER SETUP********/
+/*******************************/
+
 /* CSS for the <footer> */
 
 footer {
-  color: var(--footer-text-color);
-  font-size: .8em;
-  padding: 50px 0;
+	color : var(--footer-text-color);
+	font-size : .8em;
+	padding : 50px 0;
 }
 
-footer figure>img {
-  border-radius: 50%;
+footer figure > img {
+	border-radius : 50%;
 }
 
-
-footer>div, footer>ul {
-  display: flex;
-  text-align: center;
+footer > div,
+footer > ul {
+	display : flex;
+	text-align : center;
 }
 
-footer>div, footer>ul {
-  justify-content: center;
+footer > div,
+footer > ul {
+	justify-content : center;
 }
