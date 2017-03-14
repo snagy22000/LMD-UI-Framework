@@ -44,8 +44,19 @@
 	margin-left : 130px;
 	text-transform : uppercase;
 	width : 86%;
-	/*background: repeating-linear-gradient(to right, #ddd, #ddd 1px, #fff 1px, #fff 3%);*/
 }
+
+.t13-bars-horizontal-percentage:hover:before{
+	background-color: #fff;
+	border: 1px solid  var(--soft-primary-color);
+	border-radius: 50%;
+	color:  var(--primary-color);
+	content:  attr(data-percent);
+	position: absolute;
+	z-index: 10;
+	padding: 10px;
+}
+
 .t13-bars-horizontal-percentage:after {
 	background-color : var(--soft-primary-color);
 	content : '';

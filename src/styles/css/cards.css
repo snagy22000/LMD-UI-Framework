@@ -23,7 +23,7 @@
 /*Image setup*/
 
 .t13-card-image {
-	background : url('https://unsplash.it/600/300') no-repeat;
+	background : url('http://lorempixel.com/output/city-q-c-600-400-4.jpg') no-repeat;
 	background-size : cover;
 	height : 200px;
 	position : relative;
