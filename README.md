@@ -1,6 +1,6 @@
 # LMD Team 13 Hackathon:
 
-#(DEV TOOLS)[INSTRUCTIONS.md]
+#[DEV TOOLS](INSTRUCTIONS.md)
 
 ## Executive Summary:
 
