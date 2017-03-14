@@ -11,6 +11,6 @@
     setTimeout(function () {
       // delete load container after transition
       document.body.removeChild(loadContainer);
-    }, 5000);
+    }, 2000);
   }
 })();
