@@ -12,7 +12,6 @@ install all dependencies
   npm install
 
 
-
 ### 1. Browser-sync:
 
 Creates WebServer with access to port 3000 localhost and 3001 to Admin page.
@@ -20,9 +19,9 @@ Usable on mobile for testing.
 
 ### Using:
 
-      nom start
+      npm start
 
-![](2017-03-14-09-32-59.png)
+![](/src/images/2017-03-14-09-32-59.png)
 
 
 ## 2. Instructions for CSSCOMB
@@ -40,4 +39,4 @@ All Configuration are in the .csscomb.json file
     csscomb /src/styles/css/{name of file}.css
 
 
-![](2017-03-14-09-31-31.png)
+![](/src/images/2017-03-14-09-31-31.png)
