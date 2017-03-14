@@ -1,0 +1,32 @@
+{
+  "name": "lmd-ui-framework",
+  "version": "0.1.0",
+  "description": "UI Framework for mobile and desktop",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "htmlhint": "^0.9.13"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files '*.html, src/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snagy22000/LMD-UI-Framework.git"
+  },
+  "keywords": [
+    "UI",
+    "Framework",
+    "UI",
+    "Components",
+    "CSS"
+  ],
+  "author": "Sebastian N., Carlos A., Michel R.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snagy22000/LMD-UI-Framework/issues"
+  },
+  "homepage": "https://github.com/snagy22000/LMD-UI-Framework#readme"
+}
