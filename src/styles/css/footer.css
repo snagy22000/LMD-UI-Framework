@@ -26,6 +26,6 @@ footer > ul {
 	justify-content : center;
 }
 
-footer > ul li {
-	margin: 10px;
+footer > ul > li {
+	margin-right: 50px;
 }
