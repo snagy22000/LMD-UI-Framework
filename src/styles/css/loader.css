@@ -1,11 +1,11 @@
 .loading-container {
-  position: absolute;
+  position: fixed;
   z-index: 999;
   background: var(--dark-secondary-color);
   width: 100%;
   height: 100%;
   opacity: 1;
-  transition: all 1s;
+  transition: all 500ms;
 }
 
 
