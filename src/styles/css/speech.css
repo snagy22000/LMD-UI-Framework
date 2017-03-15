@@ -91,6 +91,36 @@ span.t13-span {
 		text-align: center;
 }
 
+input.inp_statusRead::-webkit-input-placeholder,
+input.inp_statusRead {
+	font-family: 'Roboto';
+    border: 3px dotted var(--soft-primary-color);
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 #dadad0;
+    color: var(--soft-primary-color);
+    font-weight: 700;
+    font-size: 20px;
+    min-width: 103px;
+    outline: none;
+    padding: 7px 10px;
+    transition: all 500ms;
+    white-space: nowrap;
+    text-align: center;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+
+input.inp_statusRead::-webkit-input-placeholder {
+	 	border: none;
+	  border-radius: none;
+    box-shadow: none;
+}
+
+.inp_statusRead + p {
+    color: rgb(135, 135, 135);
+    font-size: 1.4rem;
+}
+
 .read_flex.t13-button {
     background: #fff;
     transform: scale(0.9);
@@ -111,27 +141,3 @@ span.t13-span {
     	color: var(--button-font-light);
 }
 
-input.inp_statusRead::-webkit-input-placeholder,
-input.inp_statusRead {
-		font-family: 'Roboto';
-    border: 3px dotted var(--soft-primary-color);
-    border-radius: 3px;
-    box-shadow: 0 2px 2px 0 #dadad0;
-    color: var(--soft-primary-color);
-    font-weight: 700;
-    font-size: 20px;
-    min-width: 103px;
-    outline: none;
-    padding: 7px 10px;
-    transition: all 500ms;
-    white-space: nowrap;
-    text-align: center;
-		margin-bottom: 5rem;
-		text-transform: uppercase;
-}
-
-input.inp_statusRead::-webkit-input-placeholder {
-	 	border: none;
-	  border-radius: none;
-    box-shadow: none;
-}

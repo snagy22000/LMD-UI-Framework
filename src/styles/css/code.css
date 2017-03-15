@@ -5,6 +5,10 @@
 /*******************************/
 
 
+.t13-code-container {
+    margin-bottom: 80px;
+}
+
 .t13-code-chkbx {
 	display : none;
 }
@@ -40,7 +44,7 @@
 	color : var(--title-color);
 	display : none;
 	font-size : 1.2rem;
-	margin : 0 0 0 0;
+	margin : 0 !important;
 	padding : 15px 10px;
 	transition : all 500ms;
 	width : 100%;
