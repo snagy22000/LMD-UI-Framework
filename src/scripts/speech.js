@@ -1,5 +1,5 @@
 (function () {
-  "use strict";
+  'use strict';
 
   var text2speech = {
 
@@ -19,14 +19,13 @@
       this.inpStatusRead = document.querySelector('.inp_statusRead');
       this.chbxReadController = document.querySelector('#t13-text2speech-controller-toggle');
       this.ReadControllerContainer = document.querySelector('.t13-text2speech-controller');
-
     },
 
     // style DOM object - status reading
     styleSelection: function (isReading) {
-      if(isReading === true) {
-            this.inpStatusRead.value = 'running' || 'status';
-      } else if(isReading === false){
+      if (isReading === true) {
+        this.inpStatusRead.value = 'running' || 'status';
+      } else if (isReading === false) {
         this.inpStatusRead.value = 'stopped' || 'status';
       }
     },
@@ -35,17 +34,19 @@
     addEvent: function (target, eventType, eventHandler) {
       if (target) {
         target.addEventListener(eventType, eventHandler);
-      } else return;
+      }
     },
 
     // execute speech function
     speech: function (e) {
-
       var key = e.keyCode; // save keycode in variable
       var reading = false; // current status
 
-      var speechText = new SpeechSynthesisUtterance(this.selectedElements)
+      var speechText = new SpeechSynthesisUtterance(this.selectedElements);
       var speechSynth = window.speechSynthesis;
+
+       // Split text in chunks
+      var splitText = this.splitText(speechText.text);
 
       // console.log(e.target);
       // console.log(e.keyCode);
@@ -56,29 +57,24 @@
 
       // start speech
       if (key === 66 || e.target.getAttribute('class') === 'btn_startRead read_flex t13-button') { // shift + b  OR start button
-
         reading = true;
         this.styleSelection(reading); // set styles for status field
-
-        // Split text in chunks
-        var splitText = this.splitText(speechText.text);
 
         splitText.forEach(function (text) {
           speechText = new SpeechSynthesisUtterance(text);
           // Configure Speech setting (en-Us)
-          speechText.rate = .9;
-          speechText.pitch = .9;
+          speechText.rate = 0.9;
+          speechText.pitch = 0.9;
           speechText.lang = 'en-US';
 
           // run speaker
           speechSynth.speak(speechText);
           // console.log(text);
-
-        })
+        });
       // console.log(speechSynth.pending);
       }
 
-      if (key === 86 || e.target.getAttribute('class') === 'btn_stopRead read_flex t13-button') { //shift + v OR button stop
+      if (key === 86 || e.target.getAttribute('class') === 'btn_stopRead read_flex t13-button') { // shift + v OR button stop
         reading = false;
         this.styleSelection(reading);
         speechSynth.cancel();
@@ -95,15 +91,15 @@
 
       // get length number for loop
       var maxLength = Math.ceil(text.length / textSpeechLimit);
-      var next = 0
-      var array = []
-      var text;
+      var next = 0;
+      var array = [];
+      var i;
 
-      for (var i = 0; i < maxLength; i++) {
+      for (i = 0; i < maxLength; i++) {
         // console.log(i);
         // console.log("Text sliced " + text.slice(0 + next, textSpeechLimit + next));
         array.push(text.slice(0 + next, textSpeechLimit + next));
-        next = next + textSpeechLimit;
+        next += textSpeechLimit;
         // console.log(next + " next number");
       }
       return array;
@@ -112,5 +108,4 @@
 
   // RUN SCRIPT
   text2speech.init();
-
-})();
+}());
