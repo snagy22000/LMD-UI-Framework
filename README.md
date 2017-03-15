@@ -59,11 +59,16 @@ We think that one or all of the following would help in the next hackathon:
 ## Project Members:
 
 * Sebastian Nagy - Project Management, Development
-  - Components Card
-  - Components Form
+  - Components Cards
+  - Components Forms
   - Component List
+  - Component List with Image
   - Component Table
-  - Innovation CP Text2Speech
+  - Component 3D Box
+  - Component Chart
+  - Innovative Component: Carousel
+  - Innovative Component: Text2Speech
+  - Site Loader
 * Michel Rossier - Product Manager, Development
   - Components Accordion 
   - Components Tab (partially completed by submission deadline)
