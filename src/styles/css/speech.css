@@ -17,6 +17,92 @@ span.t13-span {
 	padding : 3px;
 }
 
+/* Controller form Setup */
+
+.t13-text2speech-controller {
+	background : #f1f1f1;
+	border : 5px solid var(--soft-primary-color);
+	border-radius : 15px 0 0 15px;
+	display : block;
+	height : 30rem;
+	padding : 10px 30px !important;
+	position : fixed;
+	right : -377px;
+	top : 35%;
+	transition : all 2s;
+	width : 36rem;
+}
+
+.t13-text2speech-controller:hover {
+	right : -5px;
+}
+
+
+.t13-text2speech-controller-container {
+	display : flex;
+	flex-direction : column;
+	padding : 0 20px;
+}
+
+.t13-text2speech-controller-container > h3 {
+	background : var(--soft-primary-color);
+	color : #ffffff;
+	font-size : 27px;
+	left : 3rem;
+	padding : 5px;
+	text-align : center;
+	top : 2rem;
+}
+
+input.inp_statusRead::-webkit-input-placeholder,
+input.inp_statusRead {
+	border : 3px dotted var(--soft-primary-color);
+	border-radius : 3px;
+	box-shadow : 0 2px 2px 0 #dadad0;
+	color : var(--soft-primary-color);
+	font-family : 'Roboto';
+	font-size : 20px;
+	font-weight : 700;
+	margin-bottom : 2rem;
+	min-width : 103px;
+	outline : none;
+	padding : 7px 10px;
+	text-align : center;
+	text-transform : uppercase;
+	transition : all 500ms;
+	white-space : nowrap;
+}
+
+input.inp_statusRead::-webkit-input-placeholder {
+	border : none;
+	border-radius : none;
+	box-shadow : none;
+}
+
+.inp_statusRead + p {
+	color : rgb(135, 135, 135);
+	font-size : 1.4rem;
+}
+
+.read_flex.t13-button {
+	background : #ffffff;
+	border-radius : 30px;
+	margin : 10px 0;
+	transform : scale(.9);
+}
+
+.read_flex.t13-button:hover {
+	background-color : var(--button-hover);
+	border-color : var(--button-hover);
+	color : var(--button-font-light);
+}
+
+.read_flex.t13-button:focus {
+	background-color : var(--button-hover);
+	border-color : var(--button-hover);
+	color : var(--button-font-light);
+	transform : scale(1.1);
+}
 
 /* Controller Setup VERSION 2 */
 
@@ -52,92 +138,4 @@ span.t13-span {
     font-size: 23px;
     line-height: 13px;
 }*/
-
-
-/* Controller form Setup */
-
-.t13-text2speech-controller {
-    background: #f1f1f1;
-    display: block;
-    width: 36rem;
-    height: 30rem;
-    border-radius: 15px 0 0 15px;
-    border: 5px solid var(--soft-primary-color);
-    position: fixed;
-    top: 35%;
-    right: -377px;
-    padding: 10px 30px !important;
-    transition: all 2s;
-}
-
-.t13-text2speech-controller:hover {
-    right: -5px;
-}
-
-
-.t13-text2speech-controller-container {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-}
-
-.t13-text2speech-controller-container > h3 {
-   color: #fff;
-    top: 2rem;
-    left: 3rem;
-    font-size: 27px;
-    background: var(--soft-primary-color);
-    padding: 5px;
-		text-align: center;
-}
-
-input.inp_statusRead::-webkit-input-placeholder,
-input.inp_statusRead {
-	font-family: 'Roboto';
-    border: 3px dotted var(--soft-primary-color);
-    border-radius: 3px;
-    box-shadow: 0 2px 2px 0 #dadad0;
-    color: var(--soft-primary-color);
-    font-weight: 700;
-    font-size: 20px;
-    min-width: 103px;
-    outline: none;
-    padding: 7px 10px;
-    transition: all 500ms;
-    white-space: nowrap;
-    text-align: center;
-	margin-bottom: 2rem;
-	text-transform: uppercase;
-}
-
-input.inp_statusRead::-webkit-input-placeholder {
-	 	border: none;
-	  border-radius: none;
-    box-shadow: none;
-}
-
-.inp_statusRead + p {
-    color: rgb(135, 135, 135);
-    font-size: 1.4rem;
-}
-
-.read_flex.t13-button {
-    background: #fff;
-    transform: scale(0.9);
-    border-radius: 30px;
-    margin: 10px 0;
-}
-
-.read_flex.t13-button:hover {
-    background-color: var(--button-hover);
-    border-color: var(--button-hover);
-    color: var(--button-font-light);
-}
-
-.read_flex.t13-button:focus {
-	    transform: scale(1.1);
-			background-color: var(--button-hover);
-    	border-color: var(--button-hover);
-    	color: var(--button-font-light);
-}
 

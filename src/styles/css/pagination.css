@@ -9,35 +9,35 @@
 
 /* Simple Pagination Style */
 .c-pagination {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+	align-items : center;
+	display : flex;
+	justify-content : space-around;
 }
 
 .c-pagination__item a {
-  color: var(--secondary-color);
+	color : var(--secondary-color);
 }
 
 .c-pagination__item:hover a,
-.c-pagination__chevron a  {
-  color: var(--soft-primary-color);
+.c-pagination__chevron a {
+	color : var(--soft-primary-color);
 }
 
 .c-pagination__item.is-active a {
-  color: var(--primary-color);
+	color : var(--primary-color);
 }
 
 
 /* Bordered Pagination Style */
 .c-pagination__item--bordered {
-  border: 1px solid var(--soft-primary-color);
-  padding: 10px;
+	border : 1px solid var(--soft-primary-color);
+	padding : 10px;
 }
 
 .c-pagination__item--bordered:hover,
 .c-pagination__item--bordered:hover a,
 .c-pagination__item--bordered.is-active,
 .c-pagination__item--bordered.is-active a {
-  background-color: var(--primary-color);
-  color: #fff;
+	background-color : var(--primary-color);
+	color : #ffffff;
 }

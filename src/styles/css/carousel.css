@@ -1,9 +1,9 @@
- 
+
 /********************************/
 /**** CAROUSEL AND IMAGE SETUP********/
 /*******************************/
- 
- /* Base Settings */
+
+/* Base Settings */
 
 .t13-carousel-gallery {
 	/* margin: 0 auto; */
@@ -205,7 +205,6 @@ figure {
 	flex-direction : column;
 	margin : 0;
 	padding : 0;
-
 	justify-content : center;
 }
 
