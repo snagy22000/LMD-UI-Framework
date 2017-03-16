@@ -79,6 +79,7 @@ We think that one or all of the following would help in the next hackathon:
   - Component Typography
   - Component Pagination
   - Innovative Component: CTA Shake
+  - Innovative Component: Same-Page Form
 * Obed Ampah - Development
   * Components Carousel (not added to presentation site as it wa not ready in time for deadline) [Link to branch](https://github.com/snagy22000/LMD-UI-Framework/tree/cp_carousel)
 

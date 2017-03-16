@@ -29,7 +29,7 @@ In the README.md there is our detailed summary of this project.
   * Components Buttons
   * Presentation Site Link
   * Component Modal
-  * Innovative Component: Animated Form
+  * Innovative Component: Same-Page Form
   * Innovative Component: CTA Shake
 * Obed Ampah - Development (got sick)
   * Components Carousel (not added to presentation site as it wa not ready in time for deadline)
