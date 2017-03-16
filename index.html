@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="src/styles/css/main.css">
   <link rel="stylesheet" href="src/styles/css/prism.css">
   <script src="src/scripts/loader.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+    integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -49,6 +53,7 @@
             <li><a href="#accordions">Accordions</a></li>
             <li><a href="#tabs">Tabs</a></li>
             <li><a href="#forms">Forms</a></li>
+            <li><a href="#samepageform">Same&#8209;page&nbsp;Form</a></li>
             <li><a href="#table">Tables</a></li>
             <li><a href="#lists">Lists</a></li>
             <li><a href="#carousel">Carousel</a></li>
@@ -141,6 +146,18 @@
                 <input type="checkbox" id="#t13-code-26" name="t13-code-chkbx" class="t13-code-chkbx">
                 <label for="#t13-code-26" class="t13-code-chkbxlbl"> Show Markup</label>
                 <pre class="t13-code-container-box"><code class="language-markup"></code>
+
+    &lt;ol class=&quot;t13-c-pagination&quot;&gt;
+        &lt;li class=&quot;t13-c-pagination__chevron&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-chevron-left&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;t13-c-pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;t13-c-pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;t13-c-pagination__item is-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;t13-c-pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;t13-c-pagination__item&quot;&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;t13-c-pagination__chevron&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-chevron-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ol&gt;
+
+
                 </pre>
               </div>
               <!--  <div class="t13-code-container">  -->
@@ -164,8 +181,24 @@
 
               <div class="t13-code-container" style="margin-top: 3rem;">
                 <input type="checkbox" id="#t13-code-27" name="t13-code-chkbx" class="t13-code-chkbx">
-                <label for="#t13-code-27" class="t13-code-chkbxlbl"> Show Markup</label>
+                <label for="#t13-code-27" class="t13-code-chkbxlbl">Show Markup</label>
                 <pre class="t13-code-container-box"><code class="language-markup"></code>
+
+      &lt;ol class=&quot;t13-c-pagination&quot;&gt;
+          &lt;li class=&quot;t13-c-pagination__chevron&quot;&gt;
+            &lt;a href=&quot;#&quot;&gt; &lt;i class=&quot;fa fa-chevron-left&quot;&gt; &lt;/i&gt;&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;t13-c-pagination__item t13-c-pagination__item--bordered&quot;&gt; &lt;a href=&quot;#&quot;&gt; 1&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;t13-c-pagination__item t13-c-pagination__item--bordered&quot;&gt; &lt;a href=&quot;#&quot;&gt; 2&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;t13-c-pagination__item--bordered is-active&quot;&gt;&lt;a href=&quot;#&quot;&gt; 3&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;t13-c-pagination__item t13-c-pagination__item--bordered&quot;&gt; &lt;a href=&quot;#&quot;&gt; 4&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;t13-c-pagination__item t13-c-pagination__item--bordered&quot;&gt; &lt;a href=&quot;#&quot;&gt; 5&lt;/a&gt;&lt;/li&gt;
+          &lt;li class=&quot;t13-c-pagination__chevron&quot;&gt;
+            &lt;a href=&quot;#&quot;&gt; &lt;i class=&quot;fa fa-chevron-right&quot;&gt; &lt;/i&gt;&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+
+
                 </pre>
               </div>
               <!--  <div class="t13-code-container">  -->
@@ -915,6 +948,72 @@
               </article>
             </section>
           </div>
+
+          <!--SECTION FOR ONEPAGE FORM-->
+          <div>
+            <section class="t13-section__samepageform" id="samepageform">
+              <h1>Same-Page Form (Innovative)</h1>
+              <p>Functionally, an animated same-page form allows you to collect relevant information from a user while communicating orientation (i.e. is the user moving forward of backwards). This can be combined with progress elements to add duration as well (i.e. how much longer until the form is filled out). Possible uses include survey questions on a site or profile update requests. The simplicity invites the user to start submitting information and, once vested, the user will often continue to completion.</p>
+
+              <!--Same-Page Form Example-->
+              <article>
+                <h2>Same-Page Form Example</h2>
+                <p>The form is laid out like a conveyor belt and each step can be animated individually. In this simple example, you can see a transform with slight scale and rotation on the first step with a simple transform on the second step. </p>
+
+                <div class="t13-af-container">
+                    <div class="t13-af-form-wrapper t13-af-example">
+                      <div class="t13-af-conveyor">
+                        <div class="t13-af-form t13-af-stage1">
+                          <input type="text" placeholder="Enter Your First Name" />
+                          <div class="t13-af-button">next</div>
+                        </div>
+                        <div class="t13-af-form t13-af-stage2">
+                          <input type="text" placeholder="Enter Your Last Name" />
+                          <div class="t13-af-button2">next</div>
+                        </div>
+                        <div class="t13-af-form t13-af-stage3">
+                          <div class="t13-af-button3">Congratulations! Start again?</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </article>
+
+              <div class="t13-code-container" style="margin-top: 3rem;">
+                <input type="checkbox" id="#t13-code-28" name="t13-code-chkbx" class="t13-code-chkbx">
+                <label for="#t13-code-28" class="t13-code-chkbxlbl"> Show Markup</label>
+                <pre class="t13-code-container-box"><code class="language-markup">
+
+    &lt;div class=&quot;t13-af-container&quot;&gt;
+        &lt;div class=&quot;t13-af-form-wrapper t13-af-example&quot;&gt;
+          &lt;div class=&quot;t13-af-conveyor&quot;&gt;
+            &lt;div class=&quot;t13-af-form t13-af-stage1&quot;&gt;
+              &lt;input type=&quot;text&quot; placeholder=&quot;Enter Your First Name&quot; /&gt;
+              &lt;div class=&quot;t13-af-button&quot;&gt;next&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;t13-af-form t13-af-stage2&quot;&gt;
+              &lt;input type=&quot;text&quot; placeholder=&quot;Enter Your Last Name&quot; /&gt;
+              &lt;div class=&quot;t13-af-button2&quot;&gt;next&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;t13-af-form t13-af-stage3&quot;&gt;
+              &lt;div class=&quot;t13-af-button3&quot;&gt;Congratulations! Start again?&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+
+                  </code>
+            </pre>
+              </div>
+
+
+            </section>
+          </div>
+
+
+
 
           <div>
             <section class="t13-section__table" id="table">
@@ -1912,6 +2011,7 @@
   </div>
   <script src="src/scripts/speech.js" defer="defer"></script>
   <script src="src/scripts/prism.js" defer="defer"></script>
+  <script src="src/scripts/animated-form.js" defer="defer"></script>
 </body>
 
 </html>
