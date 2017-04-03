@@ -7,6 +7,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <link rel="stylesheet" href="src/styles/css/main.css">
   <link rel="stylesheet" href="src/styles/css/prism.css">
   <script src="src/scripts/loader.js"></script>
@@ -1971,13 +1973,22 @@ The opportunity to query and manipulate data</p>
           <div class="t13-text2speech-controller">
             <!--<input type="checkbox" class="t13-text2speech-controller-chbx" id="t13-text2speech-controller-toggle">-->
             <!--<label for="t13-text2speech-controller-toggle"></label>-->
-
+            <label class="text-2speech-lbl" for="text-2speech-toggle"></label>
+            <input type="checkbox" class="text-2speech-toggle" id="text-2speech-toggle">
+            <div class="close icon"></div>
             <div class="t13-text2speech-controller-container">
-              <h3>Text2Speech</h3>
+              <h3>Text  2  Speech</h3>
               <input type="text" name="statusRead" class="inp_statusRead read_flex" value="status" readonly placeholder="status" />
-              <p>* select the text and push the start button *</p>
-              <input type="button" name="start" class="btn_startRead read_flex t13-button" value="Start Reading" />
-              <input type="button" name="stop" class="btn_stopRead read_flex t13-button" value="Stop Reading" />
+
+              <input type="button" name="start" class="btn_startRead read_flex-button" value="Start &#x00A; Reading" />
+              <input type="button" name="stop" class="btn_stopRead read_flex-button" value="Stop &#x00A; Reading" />
+              <i class="material-icons">&#xE87F;</i><p class="read_flex-instr">Instruction!</p>
+              <ul>
+                <li>Select the text you want to get read.</li>
+                <li>Use the buttons to start and stop,</li>
+                 or
+                <li>Use the Shift+B key to start and Shift+V to stop the reading.</li>
+              </ul>
             </div>
           </div>
 

@@ -6,7 +6,7 @@
 /* Base Setup*/
 
 ::selection {
-	background : var(--soft-primary-color);
+	background : #ade576;
 	color : #ffffff;
 }
 
@@ -17,58 +17,168 @@ span.t13-span {
 	padding : 3px;
 }
 
+.text-2speech-toggle:checked + .close.icon {
+	background : #ade576;
+	color : #ffffff;
+	height : 21px;
+	left : -23px;
+	margin : 0 auto;
+	padding : 1px 1px 0 1px;
+	position : absolute;
+	top : 0;
+	transition : all 1s;
+	width : 21px;
+	z-index : 11;
+}
+
+.text-2speech-toggle:checked + .close.icon:before {
+	background-color : currentColor;
+	border : none;
+	content : '';
+	height : 2px;
+	position : absolute;
+	top : 10px;
+	-webkit-transform : rotate(-45deg);
+	        transform : rotate(-45deg);
+	width : 22px;
+}
+
+.text-2speech-toggle:checked + .close.icon:after {
+	background-color : currentColor;
+	border : none;
+	content : '';
+	height : 2px;
+	left : 1px;
+	position : absolute;
+	top : 10px;
+	-webkit-transform : rotate(45deg);
+	        transform : rotate(45deg);
+	width : 21px;
+}
+
+.text-2speech-toggle + .close.icon {
+	background : #ade576;
+	height : 21px;
+	left : -23px;
+	margin : 0 auto;
+	padding : 1px 1px 0 1px;
+	position : absolute;
+	top : 0;
+	transition : all 1s;
+	width : 21px;
+	z-index : 12;
+}
+
+.text-2speech-toggle + .close.icon:before,
+.text-2speech-toggle + .close.icon:after {
+	border-bottom : solid 9px transparent;
+	border-right : solid 10px #ffffff;
+	border-top : solid 10px transparent;
+	content : '';
+	display : block;
+	height : -17px;
+	position : absolute;
+	width : 0;
+}
+
+.text-2speech-toggle + .close.icon:after {
+	left : 10px;
+}
+
+.text-2speech-toggle {
+	height : 20px;
+	/*left : -21px;*/
+	opacity : 0;
+	position : absolute;
+	width : 20px;
+}
+
+.text-2speech-lbl {
+	height : 21px;
+	left : -23px;
+	opacity : 20;
+	position : absolute;
+	top : 0;
+	width : 21px;
+	z-index : 13;
+}
+
+
+
 /* Controller form Setup */
 
 .t13-text2speech-controller {
-	background : #fff;
-	border : 5px solid var(--soft-primary-color);
-	border-radius : 15px 0 0 15px;
+	background : #ffffff;
+	border : 0;
+	box-shadow : 0 10px 20px rgba(0,0,0,.19), 0 6px 6px rgba(0,0,0,.23);
 	display : block;
-	height : 30rem;
-	padding : 10px 30px !important;
+	height : 43rem;
+	margin : 0;
+	padding : 0;
 	position : fixed;
 	right : -377px;
 	top : 35%;
+	transform : translateX(-7.6rem);
+	/*transform : translateX(-37.7rem);*/
 	transition : all 2s;
-	width : 36rem;
+	width : 300px;
+	z-index : 10;
 }
 
 .t13-text2speech-controller:hover {
-	right : -5px;
+	/*transform : translateX(-37.7rem);*/
 }
 
 
 .t13-text2speech-controller-container {
-	display : flex;
-	flex-direction : column;
-	padding : 0 20px;
+	/*display : flex;
+	flex-direction : column;*/
+	height : 100%;
+	position : relative;
 }
 
+.text-2speech-toggle + .t13-text2speech-controller-container {
+	transform : translateX(-11rem);
+}
+
+.text-2speech-toggle:checked + .t13-text2speech-controller-container {
+	transform : translateX(-31.7rem);
+}
+
+
 .t13-text2speech-controller-container > h3 {
-	background : var(--soft-primary-color);
+	/*background : #6c8cd7;*/
+	background : #ade576;
+	box-shadow : 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
 	color : #ffffff;
-	font-size : 27px;
-	left : 3rem;
+	font-family : 'Roboto';
+	font-size : 20px;
+	font-weight : 100;
+	height : 14rem;
+	letter-spacing : 6px;
+	line-height : 5rem;
 	padding : 5px;
 	text-align : center;
+	text-shadow : 0 3px 4px rgba(130, 130, 130, .68);
+	text-transform : uppercase;
 	top : 2rem;
 }
 
 input.inp_statusRead::-webkit-input-placeholder,
 input.inp_statusRead {
-	border : 3px dotted var(--soft-primary-color);
-	border-radius : 3px;
-	box-shadow : 0 2px 2px 0 #dadad0;
-	color : var(--soft-primary-color);
+	background : #67c2d4;
+	border : 0;
+	box-shadow : 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+	color : #ffffff;
+	cursor : default;
+	display : block;
 	font-family : 'Roboto';
-	font-size : 20px;
-	font-weight : 700;
-	margin-bottom : 2rem;
-	min-width : 103px;
-	outline : none;
+	margin : 0 auto;
 	padding : 7px 10px;
+	position : relative;
 	text-align : center;
 	text-transform : uppercase;
+	top : -9rem;
 	transition : all 500ms;
 	white-space : nowrap;
 }
@@ -84,25 +194,63 @@ input.inp_statusRead::-webkit-input-placeholder {
 	font-size : 1.4rem;
 }
 
-.read_flex.t13-button {
-	background : #ffffff;
-	border-radius : 30px;
-	margin : 10px 0;
+.read_flex-button {
+	border : none;
+	box-shadow : 0 7px 28px rgba(0,0,0,.25), 0 4px 10px rgba(0,0,0,.22);
+	color : #ffffff;
+	display : inline-block;
+	float : left;
+	height : 10rem;
+	outline : none;
+	position : relative;
+	text-transform : uppercase;
+	top : -5.3rem;
+	transition : all 1s;
+	width : 50%;
+}
+
+.read_flex-button:hover {
+	box-shadow : 0 16px 28px rgba(0,0,0,.25), 0 12px 10px rgba(0,0,0,.22);
+}
+
+.read_flex-button:focus {
+	box-shadow : 0 10px 20px rgba(0,0,0,.19), 0 6px 6px rgba(0,0,0,.23);
 	transform : scale(.9);
 }
 
-.read_flex.t13-button:hover {
-	background-color : var(--button-hover);
-	border-color : var(--button-hover);
-	color : var(--button-font-light);
+.btn_startRead {
+	background : #72c024;
 }
 
-.read_flex.t13-button:focus {
-	background-color : var(--button-hover);
-	border-color : var(--button-hover);
-	color : var(--button-font-light);
-	transform : scale(1.1);
+.btn_stopRead {
+	background : #da137f;
 }
+
+.read_flex-instr {
+	height : 0;
+	margin : 0 0 0 27px;
+	padding : 10px;
+	position : relative;
+	top : -7.3rem;
+}
+
+.read_flex-instr + ul {
+	font-size : 11px;
+	position : absolute;
+	top : 300px;
+}
+
+.read_flex-instr + ul li {
+	list-style-type : circle !important;
+}
+
+.material-icons {
+	color : #67c2d4;
+	margin-left : 7px;
+	position : relative;
+	top : -3rem;
+}
+
 
 /* Controller Setup VERSION 2 */
 
@@ -138,4 +286,3 @@ input.inp_statusRead::-webkit-input-placeholder {
     font-size: 23px;
     line-height: 13px;
 }*/
-

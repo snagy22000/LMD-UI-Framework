@@ -8,6 +8,7 @@
       this.cacheDOM();
       this.addEvent(this.bodyElement, 'keypress', this.speech.bind(this));
       this.addEvent(this.bodyElement, 'click', this.speech.bind(this));
+      this.addEvent(this.bodyElement, 'click', this.toggleSpeechController.bind(this));
     },
 
     // save DOM object in variable
@@ -17,7 +18,8 @@
       this.btnStartRead = document.querySelector('.btn_startRead');
       this.btnStopRead = document.querySelector('.btn_stopRead');
       this.inpStatusRead = document.querySelector('.inp_statusRead');
-      this.chbxReadController = document.querySelector('#t13-text2speech-controller-toggle');
+      this.chbxReadController = document.querySelector('.text-2speech-toggle');
+      // this.chbxReadController = document.querySelector('#t13-text2speech-controller-toggle');
       this.ReadControllerContainer = document.querySelector('.t13-text2speech-controller');
     },
 
@@ -27,6 +29,16 @@
         this.inpStatusRead.value = 'running' || 'status';
       } else if (isReading === false) {
         this.inpStatusRead.value = 'stopped' || 'status';
+      }
+    },
+
+    toggleSpeechController: function (e) {
+      if (this.chbxReadController.checked === false) {
+        console.log(e.target);
+        document.querySelector('.t13-text2speech-controller ').style.transform = 'translateX(-7.6rem)';
+      } else if (this.chbxReadController.checked === true) {
+        console.log(e.target);
+        document.querySelector('.t13-text2speech-controller ').style.transform = 'translateX(-37.6rem)';
       }
     },
 
@@ -45,7 +57,7 @@
       var speechText = new SpeechSynthesisUtterance(this.selectedElements);
       var speechSynth = window.speechSynthesis;
 
-       // Split text in chunks
+      // Split text in chunks
       var splitText = this.splitText(speechText.text);
 
       // console.log(e.target);
@@ -56,7 +68,7 @@
       // console.log(splitText);
 
       // start speech
-      if (key === 66 || e.target.getAttribute('class') === 'btn_startRead read_flex t13-button') { // shift + b  OR start button
+      if (key === 66 || e.target.getAttribute('class') === 'btn_startRead read_flex-button') { // shift + b  OR start button
         reading = true;
         this.styleSelection(reading); // set styles for status field
 
@@ -71,10 +83,10 @@
           speechSynth.speak(speechText);
           // console.log(text);
         });
-      // console.log(speechSynth.pending);
+        // console.log(speechSynth.pending);
       }
 
-      if (key === 86 || e.target.getAttribute('class') === 'btn_stopRead read_flex t13-button') { // shift + v OR button stop
+      if (key === 86 || e.target.getAttribute('class') === 'btn_stopRead read_flex-button') { // shift + v OR button stop
         reading = false;
         this.styleSelection(reading);
         speechSynth.cancel();
