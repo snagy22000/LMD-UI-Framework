@@ -45,9 +45,9 @@ gulp.task('concatAndMinifyJs', function() {
 });
 
 
-//compile Sass and minify resulting css
+//compile css and minify resulting css
 gulp.task('css', function() {
-  gulp.src('src/styles/css/main.css')
+  gulp.src('src/styles/css/*.css')
       .pipe(cleanCSS())
       .on('error', handleError)
       .pipe(gulp.dest('public/styles/css/'))
@@ -116,7 +116,7 @@ gulp.task('push', function(){
 });
 
 //********* Build,  Deploy, and Watch Tasks ************//
-gulp.task('build', ['clean:public', 'imageMin', 'css', 'concatAndMinifyJs']);
+gulp.task('build', ['clean:public', 'imageMin', 'css', 'concatAndMinifyJs', 'copyFonts']);
 
 gulp.task('deploy', function(callback) {
   runSequence('build', 'bumpPackage', 'add', 'commit', 'push', callback);

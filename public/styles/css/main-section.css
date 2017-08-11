@@ -1,0 +1,1 @@
+main{background-color:var(--title-color);margin-top:50px}section{border-top:5px solid var(--faint-secondary-color)}main section{padding-top:70px}main>div{border:1px solid transparent;padding:100px;padding-bottom:0}#typography{border:none;padding-top:0}@media (max-width:900px){main>div{padding-left:30px}}@media (max-width:550px){main>div{padding-top:30px}}
