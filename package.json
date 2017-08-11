@@ -7,7 +7,16 @@
   "devDependencies": {
     "browser-sync": "^2.18.8",
     "csscomb": "^4.0.1",
-    "htmlhint": "^0.9.13"
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.7.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-git": "^2.4.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-uglify": "^3.0.0",
+    "htmlhint": "^0.9.13",
+    "run-sequence": "^2.1.0"
   },
   "scripts": {
     "start": "browser-sync start --config bs-config.js",
